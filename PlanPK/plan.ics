@@ -1,0 +1,4326 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WK Plan//Export//PL
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Stacjonarne - faculty: IwIKs4
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1771834500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T091500
+DTEND:20260223T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1771840800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T110000
+DTEND:20260223T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1771840800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T110000
+DTEND:20260223T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1771849800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T133000
+DTEND:20260223T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1771853400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T143000
+DTEND:20260223T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1771859700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T161500
+DTEND:20260223T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1771866000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260223T180000
+DTEND:20260223T193000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1771914600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T073000
+DTEND:20260224T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1771914600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T073000
+DTEND:20260224T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1771920900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T091500
+DTEND:20260224T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1771920900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T091500
+DTEND:20260224T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1771927200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T110000
+DTEND:20260224T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1771927200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T110000
+DTEND:20260224T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1771933500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T124500
+DTEND:20260224T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1771933500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T124500
+DTEND:20260224T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1771939800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T143000
+DTEND:20260224T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1771946100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T161500
+DTEND:20260224T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1771952400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T180000
+DTEND:20260224T184500
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769136473498-1b71a650bb083-1771955100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T184500
+DTEND:20260224T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1771958700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T194500
+DTEND:20260224T203000
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769472579248-aa5058076bef1-1771961400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260224T203000
+DTEND:20260224T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1772007300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T091500
+DTEND:20260225T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769475112657-5218ff8a948db8-1772007300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T091500
+DTEND:20260225T104500
+SUMMARY:Programowanie technik pomiarowych\, P2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1772013600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T110000
+DTEND:20260225T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474508110-47d3ee6d53d7a-1772013600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T110000
+DTEND:20260225T123000
+SUMMARY:Programowanie technik pomiarowych\, P1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1772019900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T124500
+DTEND:20260225T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474936170-e495f38b35e728-1772019900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T124500
+DTEND:20260225T141500
+SUMMARY:Programowanie technik pomiarowych\, P3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1772026200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T143000
+DTEND:20260225T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1772032500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T161500
+DTEND:20260225T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1772038800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T180000
+DTEND:20260225T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1772045100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260225T194500
+DTEND:20260225T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1772087400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T073000
+DTEND:20260226T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1772087400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T073000
+DTEND:20260226T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1772096400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T100000
+DTEND:20260226T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1772096400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T100000
+DTEND:20260226T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1772096400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T100000
+DTEND:20260226T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1772105400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T123000
+DTEND:20260226T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1772105400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T123000
+DTEND:20260226T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1772114400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260226T150000
+DTEND:20260226T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1772173800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260227T073000
+DTEND:20260227T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1772180100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260227T091500
+DTEND:20260227T104500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1772186400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260227T110000
+DTEND:20260227T123000
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1772439300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260302T091500
+DTEND:20260302T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1772445600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260302T110000
+DTEND:20260302T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1772445600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260302T110000
+DTEND:20260302T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1772454600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260302T133000
+DTEND:20260302T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1772458200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260302T143000
+DTEND:20260302T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1772464500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260302T161500
+DTEND:20260302T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1772519400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T073000
+DTEND:20260303T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1772519400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T073000
+DTEND:20260303T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1772525700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T091500
+DTEND:20260303T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1772525700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T091500
+DTEND:20260303T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1772532000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T110000
+DTEND:20260303T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1772532000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T110000
+DTEND:20260303T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1772538300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T124500
+DTEND:20260303T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1772538300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T124500
+DTEND:20260303T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1772544600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T143000
+DTEND:20260303T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1772550900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T161500
+DTEND:20260303T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1772557200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T180000
+DTEND:20260303T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1772563500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260303T194500
+DTEND:20260303T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1772612100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T091500
+DTEND:20260304T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1772618400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T110000
+DTEND:20260304T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1772624700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T124500
+DTEND:20260304T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474800107-1e2e105905e7-1772624700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T124500
+DTEND:20260304T141500
+SUMMARY:Programowanie technik pomiarowych\, P4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1772631000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T143000
+DTEND:20260304T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1772637300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T161500
+DTEND:20260304T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1772643600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T180000
+DTEND:20260304T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1772649900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260304T194500
+DTEND:20260304T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1772692200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T073000
+DTEND:20260305T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1772692200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T073000
+DTEND:20260305T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1772701200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T100000
+DTEND:20260305T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1772701200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T100000
+DTEND:20260305T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1772701200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T100000
+DTEND:20260305T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1772710200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T123000
+DTEND:20260305T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1772710200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T123000
+DTEND:20260305T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1772719200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260305T150000
+DTEND:20260305T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1772778600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260306T073000
+DTEND:20260306T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460046721-44ba3d5518f138-1772784900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260306T091500
+DTEND:20260306T104500
+SUMMARY:Podstawy baz danych\, P2\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P2\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460765163-500870ef79a57-1772791200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260306T110000
+DTEND:20260306T123000
+SUMMARY:Podstawy baz danych\, P4\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P4\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1773044100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T091500
+DTEND:20260309T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1773050400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T110000
+DTEND:20260309T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1773050400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T110000
+DTEND:20260309T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1773059400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T133000
+DTEND:20260309T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1773063000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T143000
+DTEND:20260309T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1773069300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T161500
+DTEND:20260309T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1773075600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260309T180000
+DTEND:20260309T193000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1773124200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T073000
+DTEND:20260310T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1773124200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T073000
+DTEND:20260310T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1773130500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T091500
+DTEND:20260310T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1773130500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T091500
+DTEND:20260310T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1773136800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T110000
+DTEND:20260310T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1773136800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T110000
+DTEND:20260310T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1773143100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T124500
+DTEND:20260310T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1773143100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T124500
+DTEND:20260310T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1773149400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T143000
+DTEND:20260310T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1773155700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T161500
+DTEND:20260310T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1773162000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T180000
+DTEND:20260310T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1773168300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260310T194500
+DTEND:20260310T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1773216900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T091500
+DTEND:20260311T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1773223200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T110000
+DTEND:20260311T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1773229500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T124500
+DTEND:20260311T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1773235800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T143000
+DTEND:20260311T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1773242100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T161500
+DTEND:20260311T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1773248400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T180000
+DTEND:20260311T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1773254700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260311T194500
+DTEND:20260311T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1773297000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T073000
+DTEND:20260312T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1773297000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T073000
+DTEND:20260312T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1773306000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T100000
+DTEND:20260312T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1773306000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T100000
+DTEND:20260312T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1773306000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T100000
+DTEND:20260312T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1773315000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T123000
+DTEND:20260312T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1773315000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T123000
+DTEND:20260312T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1773324000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260312T150000
+DTEND:20260312T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1773383400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260313T073000
+DTEND:20260313T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1773389700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260313T091500
+DTEND:20260313T104500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1773396000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260313T110000
+DTEND:20260313T123000
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1773648900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260316T091500
+DTEND:20260316T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1773655200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260316T110000
+DTEND:20260316T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1773655200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260316T110000
+DTEND:20260316T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1773664200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260316T133000
+DTEND:20260316T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1773667800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260316T143000
+DTEND:20260316T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1773674100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260316T161500
+DTEND:20260316T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1773729000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T073000
+DTEND:20260317T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1773729000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T073000
+DTEND:20260317T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1773735300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T091500
+DTEND:20260317T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1773735300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T091500
+DTEND:20260317T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1773741600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T110000
+DTEND:20260317T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1773741600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T110000
+DTEND:20260317T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1773747900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T124500
+DTEND:20260317T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1773747900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T124500
+DTEND:20260317T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1773754200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T143000
+DTEND:20260317T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1773760500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T161500
+DTEND:20260317T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1773766800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T180000
+DTEND:20260317T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1773773100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260317T194500
+DTEND:20260317T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1773821700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T091500
+DTEND:20260318T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1773828000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T110000
+DTEND:20260318T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1773834300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T124500
+DTEND:20260318T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1773840600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T143000
+DTEND:20260318T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1773846900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T161500
+DTEND:20260318T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1773853200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T180000
+DTEND:20260318T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1773859500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260318T194500
+DTEND:20260318T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1773901800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T073000
+DTEND:20260319T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1773901800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T073000
+DTEND:20260319T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1773910800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T100000
+DTEND:20260319T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1773910800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T100000
+DTEND:20260319T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1773910800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T100000
+DTEND:20260319T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1773919800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T123000
+DTEND:20260319T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1773919800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T123000
+DTEND:20260319T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1773928800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260319T150000
+DTEND:20260319T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1773988200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260320T073000
+DTEND:20260320T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460046721-44ba3d5518f138-1773994500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260320T091500
+DTEND:20260320T104500
+SUMMARY:Podstawy baz danych\, P2\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P2\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460765163-500870ef79a57-1774000800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260320T110000
+DTEND:20260320T123000
+SUMMARY:Podstawy baz danych\, P4\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P4\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1774253700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T091500
+DTEND:20260323T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1774260000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T110000
+DTEND:20260323T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1774260000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T110000
+DTEND:20260323T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1774269000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T133000
+DTEND:20260323T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1774272600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T143000
+DTEND:20260323T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1774278900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T161500
+DTEND:20260323T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1774285200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260323T180000
+DTEND:20260323T193000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1774333800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T073000
+DTEND:20260324T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1774333800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T073000
+DTEND:20260324T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1774340100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T091500
+DTEND:20260324T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1774340100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T091500
+DTEND:20260324T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1774346400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T110000
+DTEND:20260324T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1774346400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T110000
+DTEND:20260324T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1774352700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T124500
+DTEND:20260324T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1774352700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T124500
+DTEND:20260324T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1774359000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T143000
+DTEND:20260324T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1774365300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T161500
+DTEND:20260324T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1774371600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T180000
+DTEND:20260324T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1774377900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260324T194500
+DTEND:20260324T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1774426500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T091500
+DTEND:20260325T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1774432800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T110000
+DTEND:20260325T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1774439100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T124500
+DTEND:20260325T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1774445400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T143000
+DTEND:20260325T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1774451700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T161500
+DTEND:20260325T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1774458000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T180000
+DTEND:20260325T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1774464300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260325T194500
+DTEND:20260325T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1774506600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T073000
+DTEND:20260326T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1774506600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T073000
+DTEND:20260326T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1774515600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T100000
+DTEND:20260326T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1774515600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T100000
+DTEND:20260326T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1774515600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T100000
+DTEND:20260326T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1774524600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T123000
+DTEND:20260326T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1774524600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T123000
+DTEND:20260326T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1774533600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260326T150000
+DTEND:20260326T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1774593000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260327T073000
+DTEND:20260327T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1774599300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260327T091500
+DTEND:20260327T104500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1774605600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260327T110000
+DTEND:20260327T123000
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465628356-1a331d3f7799b8-1774611900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260327T124500
+DTEND:20260327T141500
+SUMMARY:Sieci komputerowe\, W\, dr inż. P. Król\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: dr inż. P. Król\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1774854900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260330T091500
+DTEND:20260330T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1774861200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260330T110000
+DTEND:20260330T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1774861200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260330T110000
+DTEND:20260330T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1774870200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260330T133000
+DTEND:20260330T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1774873800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260330T143000
+DTEND:20260330T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1774880100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260330T161500
+DTEND:20260330T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1774935000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T073000
+DTEND:20260331T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1774935000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T073000
+DTEND:20260331T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1774941300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T091500
+DTEND:20260331T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1774941300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T091500
+DTEND:20260331T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1774947600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T110000
+DTEND:20260331T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1774947600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T110000
+DTEND:20260331T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1774953900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T124500
+DTEND:20260331T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1774953900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T124500
+DTEND:20260331T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1774960200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T143000
+DTEND:20260331T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1774966500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T161500
+DTEND:20260331T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1774972800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T180000
+DTEND:20260331T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1774979100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260331T194500
+DTEND:20260331T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1775632500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T091500
+DTEND:20260408T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1775638800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T110000
+DTEND:20260408T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1775645100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T124500
+DTEND:20260408T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1775651400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T143000
+DTEND:20260408T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1775657700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T161500
+DTEND:20260408T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1775664000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T180000
+DTEND:20260408T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1775670300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260408T194500
+DTEND:20260408T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1775712600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T073000
+DTEND:20260409T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1775712600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T073000
+DTEND:20260409T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1775721600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T100000
+DTEND:20260409T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1775721600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T100000
+DTEND:20260409T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1775721600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T100000
+DTEND:20260409T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1775730600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T123000
+DTEND:20260409T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1775730600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T123000
+DTEND:20260409T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1775739600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260409T150000
+DTEND:20260409T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1775799000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260410T073000
+DTEND:20260410T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1775805300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260410T091500
+DTEND:20260410T104500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1775811600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260410T110000
+DTEND:20260410T123000
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465628356-1a331d3f7799b8-1775817900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260410T124500
+DTEND:20260410T141500
+SUMMARY:Sieci komputerowe\, W\, dr inż. P. Król\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: dr inż. P. Król\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1776064500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260413T091500
+DTEND:20260413T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1776070800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260413T110000
+DTEND:20260413T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1776070800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260413T110000
+DTEND:20260413T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1776079800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260413T133000
+DTEND:20260413T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1776083400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260413T143000
+DTEND:20260413T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1776089700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260413T161500
+DTEND:20260413T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1776144600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T073000
+DTEND:20260414T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1776144600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T073000
+DTEND:20260414T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1776150900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T091500
+DTEND:20260414T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1776150900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T091500
+DTEND:20260414T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1776157200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T110000
+DTEND:20260414T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1776157200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T110000
+DTEND:20260414T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1776163500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T124500
+DTEND:20260414T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1776163500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T124500
+DTEND:20260414T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1776169800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T143000
+DTEND:20260414T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1776176100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T161500
+DTEND:20260414T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1776182400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T180000
+DTEND:20260414T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1776188700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260414T194500
+DTEND:20260414T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1776237300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T091500
+DTEND:20260415T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1776243600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T110000
+DTEND:20260415T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1776249900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T124500
+DTEND:20260415T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1776256200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T143000
+DTEND:20260415T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1776262500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T161500
+DTEND:20260415T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1776268800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T180000
+DTEND:20260415T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1776275100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260415T194500
+DTEND:20260415T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1776317400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T073000
+DTEND:20260416T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1776317400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T073000
+DTEND:20260416T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1776326400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T100000
+DTEND:20260416T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1776326400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T100000
+DTEND:20260416T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1776326400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T100000
+DTEND:20260416T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1776335400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T123000
+DTEND:20260416T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1776335400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T123000
+DTEND:20260416T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1776344400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260416T150000
+DTEND:20260416T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1776403800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260417T073000
+DTEND:20260417T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460046721-44ba3d5518f138-1776410100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260417T091500
+DTEND:20260417T104500
+SUMMARY:Podstawy baz danych\, P2\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P2\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460765163-500870ef79a57-1776416400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260417T110000
+DTEND:20260417T123000
+SUMMARY:Podstawy baz danych\, P4\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P4\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465628356-1a331d3f7799b8-1776422700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260417T124500
+DTEND:20260417T141500
+SUMMARY:Sieci komputerowe\, W\, dr inż. P. Król\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: dr inż. P. Król\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1776669300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T091500
+DTEND:20260420T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1776675600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T110000
+DTEND:20260420T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1776675600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T110000
+DTEND:20260420T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1776684600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T133000
+DTEND:20260420T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1776688200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T143000
+DTEND:20260420T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1776694500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T161500
+DTEND:20260420T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1776700800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260420T180000
+DTEND:20260420T193000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1776749400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T073000
+DTEND:20260421T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1776749400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T073000
+DTEND:20260421T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1776755700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T091500
+DTEND:20260421T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1776755700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T091500
+DTEND:20260421T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1776762000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T110000
+DTEND:20260421T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1776762000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T110000
+DTEND:20260421T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1776768300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T124500
+DTEND:20260421T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1776768300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T124500
+DTEND:20260421T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1776774600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T143000
+DTEND:20260421T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1776780900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T161500
+DTEND:20260421T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1776787200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T180000
+DTEND:20260421T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1776793500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260421T194500
+DTEND:20260421T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1776842100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T091500
+DTEND:20260422T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1776848400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T110000
+DTEND:20260422T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1776854700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T124500
+DTEND:20260422T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1776861000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T143000
+DTEND:20260422T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1776867300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T161500
+DTEND:20260422T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1776873600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T180000
+DTEND:20260422T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1776879900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260422T194500
+DTEND:20260422T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1776922200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T073000
+DTEND:20260423T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1776922200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T073000
+DTEND:20260423T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1776931200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T100000
+DTEND:20260423T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1776931200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T100000
+DTEND:20260423T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1776931200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T100000
+DTEND:20260423T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1776940200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T123000
+DTEND:20260423T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1776940200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T123000
+DTEND:20260423T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1776949200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260423T150000
+DTEND:20260423T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1777008600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260424T073000
+DTEND:20260424T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1777014900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260424T091500
+DTEND:20260424T104500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1777021200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260424T110000
+DTEND:20260424T123000
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465628356-1a331d3f7799b8-1777027500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260424T124500
+DTEND:20260424T141500
+SUMMARY:Sieci komputerowe\, W\, dr inż. P. Król\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: dr inż. P. Król\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1777274100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260427T091500
+DTEND:20260427T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1777280400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260427T110000
+DTEND:20260427T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1777280400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260427T110000
+DTEND:20260427T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1777289400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260427T133000
+DTEND:20260427T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1777293000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260427T143000
+DTEND:20260427T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1777299300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260427T161500
+DTEND:20260427T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1777354200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T073000
+DTEND:20260428T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1777354200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T073000
+DTEND:20260428T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1777360500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T091500
+DTEND:20260428T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1777360500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T091500
+DTEND:20260428T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1777366800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T110000
+DTEND:20260428T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1777366800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T110000
+DTEND:20260428T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1777373100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T124500
+DTEND:20260428T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1777373100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T124500
+DTEND:20260428T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1777379400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T143000
+DTEND:20260428T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1777385700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T161500
+DTEND:20260428T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1777392000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T180000
+DTEND:20260428T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1777398300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260428T194500
+DTEND:20260428T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1777446900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T091500
+DTEND:20260429T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1777453200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T110000
+DTEND:20260429T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1777459500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T124500
+DTEND:20260429T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1777465800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T143000
+DTEND:20260429T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1777472100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T161500
+DTEND:20260429T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1777478400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T180000
+DTEND:20260429T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1777484700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260429T194500
+DTEND:20260429T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1777527000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T073000
+DTEND:20260430T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1777527000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T073000
+DTEND:20260430T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1777536000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T100000
+DTEND:20260430T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1777536000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T100000
+DTEND:20260430T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1777536000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T100000
+DTEND:20260430T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1777545000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T123000
+DTEND:20260430T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1777545000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T123000
+DTEND:20260430T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1777554000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260430T150000
+DTEND:20260430T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1777959000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T073000
+DTEND:20260505T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1777959000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T073000
+DTEND:20260505T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1777965300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T091500
+DTEND:20260505T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1777965300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T091500
+DTEND:20260505T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1777971600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T110000
+DTEND:20260505T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1777971600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T110000
+DTEND:20260505T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1777977900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T124500
+DTEND:20260505T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1777977900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T124500
+DTEND:20260505T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1777984200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T143000
+DTEND:20260505T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1777990500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T161500
+DTEND:20260505T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1777996800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T180000
+DTEND:20260505T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1778003100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260505T194500
+DTEND:20260505T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1778051700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T091500
+DTEND:20260506T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1778058000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T110000
+DTEND:20260506T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1778064300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T124500
+DTEND:20260506T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1778070600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T143000
+DTEND:20260506T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1778076900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T161500
+DTEND:20260506T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1778083200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T180000
+DTEND:20260506T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1778089500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260506T194500
+DTEND:20260506T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1778131800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T073000
+DTEND:20260507T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469886256-6537ca2c01fe68-1778131800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T073000
+DTEND:20260507T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1778140800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T100000
+DTEND:20260507T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1778140800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T100000
+DTEND:20260507T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469709138-6e378d4b659848-1778140800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T100000
+DTEND:20260507T121500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L3\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L3\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1778149800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T123000
+DTEND:20260507T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769470388565-63bbe09adb682-1778149800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T123000
+DTEND:20260507T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474133668-7c369396a7828-1778158800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260507T150000
+DTEND:20260507T163000
+SUMMARY:Mikroprocesory i mikrokontrolery\, W\, dr inż. K. Suchenia\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: W\nProwadzący: dr inż. K. Suchenia\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1778218200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260508T073000
+DTEND:20260508T090000
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1778224500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260508T091500
+DTEND:20260508T104500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1778230800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260508T110000
+DTEND:20260508T123000
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465628356-1a331d3f7799b8-1778237100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260508T124500
+DTEND:20260508T141500
+SUMMARY:Sieci komputerowe\, W\, dr inż. P. Król\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: dr inż. P. Król\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769464386253-82eb5aca2bad08-1778483700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260511T091500
+DTEND:20260511T104500
+SUMMARY:Sieci komputerowe\, W\, mgr inż. K. Kiełkowicz\, s. A4\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: W\nProwadzący: mgr inż. K. Kiełkowicz\nSala: A4\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1778490000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260511T110000
+DTEND:20260511T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473699246-7636fe8d6e7258-1778490000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260511T110000
+DTEND:20260511T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L4\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L4\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1778499000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260511T133000
+DTEND:20260511T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1778502600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260511T143000
+DTEND:20260511T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1778508900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260511T161500
+DTEND:20260511T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1778656500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T091500
+DTEND:20260513T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1778662800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T110000
+DTEND:20260513T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1778669100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T124500
+DTEND:20260513T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1778675400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T143000
+DTEND:20260513T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1778681700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T161500
+DTEND:20260513T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1778688000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T180000
+DTEND:20260513T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1778694300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260513T194500
+DTEND:20260513T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1778736600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260514T073000
+DTEND:20260514T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471329292-7bd93b7a7b1748-1778736600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260514T073000
+DTEND:20260514T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1778745600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260514T100000
+DTEND:20260514T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1778745600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260514T100000
+DTEND:20260514T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1778754600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260514T123000
+DTEND:20260514T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471208126-22e4d9acd186f8-1778754600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260514T123000
+DTEND:20260514T144500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1778823000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260515T073000
+DTEND:20260515T094500
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460046721-44ba3d5518f138-1778832000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260515T100000
+DTEND:20260515T121500
+SUMMARY:Podstawy baz danych\, P2\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P2\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769466749847-1e5a4deb10016-1778832000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260515T100000
+DTEND:20260515T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460765163-500870ef79a57-1778841000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260515T123000
+DTEND:20260515T144500
+SUMMARY:Podstawy baz danych\, P4\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P4\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1779094800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260518T110000
+DTEND:20260518T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473803075-aa4364eaa58a5-1779094800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260518T110000
+DTEND:20260518T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P3\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P3\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1779103800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260518T133000
+DTEND:20260518T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1779107400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260518T143000
+DTEND:20260518T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1779113700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260518T161500
+DTEND:20260518T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1779120000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260518T180000
+DTEND:20260518T193000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1779168600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T073000
+DTEND:20260519T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1779168600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T073000
+DTEND:20260519T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1779174900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T091500
+DTEND:20260519T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1779174900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T091500
+DTEND:20260519T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1779181200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T110000
+DTEND:20260519T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1779181200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T110000
+DTEND:20260519T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1779187500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T124500
+DTEND:20260519T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1779187500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T124500
+DTEND:20260519T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1779193800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T143000
+DTEND:20260519T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1779200100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T161500
+DTEND:20260519T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1779206400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T180000
+DTEND:20260519T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1779212700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260519T194500
+DTEND:20260519T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1779261300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T091500
+DTEND:20260520T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471329292-7bd93b7a7b1748-1779261300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T091500
+DTEND:20260520T113000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1779267600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T110000
+DTEND:20260520T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1779273900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T124500
+DTEND:20260520T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1779280200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T143000
+DTEND:20260520T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1779286500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T161500
+DTEND:20260520T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1779292800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T180000
+DTEND:20260520T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1779299100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260520T194500
+DTEND:20260520T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1779341400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260521T073000
+DTEND:20260521T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471329292-7bd93b7a7b1748-1779341400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260521T073000
+DTEND:20260521T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1779350400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260521T100000
+DTEND:20260521T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1779350400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260521T100000
+DTEND:20260521T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1779359400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260521T123000
+DTEND:20260521T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471208126-22e4d9acd186f8-1779359400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260521T123000
+DTEND:20260521T153000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1779427800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260522T073000
+DTEND:20260522T094500
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460003285-4dc60f4c0fe358-1779436800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260522T100000
+DTEND:20260522T121500
+SUMMARY:Podstawy baz danych\, P1\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P1\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460588162-d183dd84f5edf-1779445800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260522T123000
+DTEND:20260522T144500
+SUMMARY:Podstawy baz danych\, P3\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P3\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1779699600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260525T110000
+DTEND:20260525T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473803075-aa4364eaa58a5-1779699600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260525T110000
+DTEND:20260525T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P3\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P3\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1779708600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260525T133000
+DTEND:20260525T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1779712200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260525T143000
+DTEND:20260525T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1779718500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260525T161500
+DTEND:20260525T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1779773400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T073000
+DTEND:20260526T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1779773400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T073000
+DTEND:20260526T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1779779700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T091500
+DTEND:20260526T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1779779700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T091500
+DTEND:20260526T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1779786000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T110000
+DTEND:20260526T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1779786000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T110000
+DTEND:20260526T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1779792300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T124500
+DTEND:20260526T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1779792300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T124500
+DTEND:20260526T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1779798600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T143000
+DTEND:20260526T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1779804900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T161500
+DTEND:20260526T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1779811200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T180000
+DTEND:20260526T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1779817500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260526T194500
+DTEND:20260526T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1779866100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T091500
+DTEND:20260527T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1779872400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T110000
+DTEND:20260527T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1779878700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T124500
+DTEND:20260527T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1779885000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T143000
+DTEND:20260527T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1779891300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T161500
+DTEND:20260527T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1779897600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T180000
+DTEND:20260527T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1779903900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260527T194500
+DTEND:20260527T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1779946200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260528T073000
+DTEND:20260528T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471329292-7bd93b7a7b1748-1779946200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260528T073000
+DTEND:20260528T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1779955200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260528T100000
+DTEND:20260528T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1779955200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260528T100000
+DTEND:20260528T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1779964200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260528T123000
+DTEND:20260528T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471208126-22e4d9acd186f8-1779964200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260528T123000
+DTEND:20260528T153000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1780032600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260529T073000
+DTEND:20260529T094500
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460046721-44ba3d5518f138-1780041600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260529T100000
+DTEND:20260529T121500
+SUMMARY:Podstawy baz danych\, P2\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P2\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474508110-47d3ee6d53d7a-1780041600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260529T100000
+DTEND:20260529T121500
+SUMMARY:Programowanie technik pomiarowych\, P1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460765163-500870ef79a57-1780050600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260529T123000
+DTEND:20260529T144500
+SUMMARY:Podstawy baz danych\, P4\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P4\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769475112657-5218ff8a948db8-1780050600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260529T123000
+DTEND:20260529T144500
+SUMMARY:Programowanie technik pomiarowych\, P2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1780304400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260601T110000
+DTEND:20260601T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473803075-aa4364eaa58a5-1780304400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260601T110000
+DTEND:20260601T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P3\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P3\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1780313400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260601T133000
+DTEND:20260601T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1780317000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260601T143000
+DTEND:20260601T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1780323300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260601T161500
+DTEND:20260601T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1780329600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260601T180000
+DTEND:20260601T193000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1780378200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T073000
+DTEND:20260602T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1780378200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T073000
+DTEND:20260602T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1780384500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T091500
+DTEND:20260602T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1780384500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T091500
+DTEND:20260602T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1780390800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T110000
+DTEND:20260602T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1780390800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T110000
+DTEND:20260602T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1780397100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T124500
+DTEND:20260602T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1780397100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T124500
+DTEND:20260602T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1780403400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T143000
+DTEND:20260602T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1780409700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T161500
+DTEND:20260602T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1780416000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T180000
+DTEND:20260602T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1780422300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260602T194500
+DTEND:20260602T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1780470900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T091500
+DTEND:20260603T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1780477200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T110000
+DTEND:20260603T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1780483500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T124500
+DTEND:20260603T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1780489800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T143000
+DTEND:20260603T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1780496100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T161500
+DTEND:20260603T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1780502400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T180000
+DTEND:20260603T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1780508700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260603T194500
+DTEND:20260603T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1780909200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260608T110000
+DTEND:20260608T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473803075-aa4364eaa58a5-1780909200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260608T110000
+DTEND:20260608T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P3\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P3\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1780918200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260608T133000
+DTEND:20260608T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1780921800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260608T143000
+DTEND:20260608T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1780928100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260608T161500
+DTEND:20260608T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1780983000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T073000
+DTEND:20260609T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1780983000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T073000
+DTEND:20260609T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1780989300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T091500
+DTEND:20260609T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1780989300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T091500
+DTEND:20260609T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1780995600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T110000
+DTEND:20260609T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1780995600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T110000
+DTEND:20260609T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1781001900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T124500
+DTEND:20260609T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1781001900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T124500
+DTEND:20260609T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1781008200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T143000
+DTEND:20260609T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1781014500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T161500
+DTEND:20260609T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768487394318-195e5b41dcd46-1781020800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T180000
+DTEND:20260609T193000
+SUMMARY:Programowanie w języku JAVA\, P3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134942139-fa9cc6a5f5b258-1781027100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260609T194500
+DTEND:20260609T211500
+SUMMARY:Programowanie w języku JAVA\, P1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449309728-873951f9f9f5d8-1781075700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T091500
+DTEND:20260610T104500
+SUMMARY:Język angielski\, Lek3\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek3\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449362313-a3370948c3779-1781082000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T110000
+DTEND:20260610T123000
+SUMMARY:Język angielski\, Lek2\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek2\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769449795019-1dff176c96c518-1781088300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T124500
+DTEND:20260610T141500
+SUMMARY:Język angielski\, Lek1\, mgr A. Gunia-Tracz\, s. 10\, IwIKs4
+DESCRIPTION:Przedmiot: Język angielski\nGrupa: Lek1\nProwadzący: mgr A. Gunia-Tracz\nSala: 10\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769468465494-bee53e857c3d98-1781094600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T143000
+DTEND:20260610T160000
+SUMMARY:Programowanie technik pomiarowych\, W\, dr inż. M. Pawlik\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: W\nProwadzący: dr inż. M. Pawlik\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461542952-777ea209617fa8-1781100900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T161500
+DTEND:20260610T174500
+SUMMARY:Programowanie w języku JAVA\, Lk2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461717382-9cc726d8db5be-1781107200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T180000
+DTEND:20260610T193000
+SUMMARY:Programowanie w języku JAVA\, Lk3\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk3\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461808238-5b3193d9daf4f-1781113500000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260610T194500
+DTEND:20260610T211500
+SUMMARY:Programowanie w języku JAVA\, Lk4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134011907-a23f0de4093ff8-1781155800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260611T073000
+DTEND:20260611T094500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471329292-7bd93b7a7b1748-1781155800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260611T073000
+DTEND:20260611T094500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P1\, dr inż. A. Drwal\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P1\nProwadzący: dr inż. A. Drwal\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134095237-83191f2c8b8028-1781164800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260611T100000
+DTEND:20260611T121500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769463450273-da05ededc5143-1781164800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260611T100000
+DTEND:20260611T121500
+SUMMARY:Sieci komputerowe\, L1\, dr inż. P. Król\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L1\nProwadzący: dr inż. P. Król\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769134422992-f50dfd9c350e68-1781173800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260611T123000
+DTEND:20260611T144500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769471208126-22e4d9acd186f8-1781173800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260611T123000
+DTEND:20260611T153000
+SUMMARY:Mikroprocesory i mikrokontrolery\, P2\, dr inż. K. Suchenia\, s. 101B\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P2\nProwadzący: dr inż. K. Suchenia\nSala: 101B\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769459833252-968428e7dc3ca8-1781242200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T073000
+DTEND:20260612T094500
+SUMMARY:Podstawy baz danych\, W\, dr inż. J. Strug\, s. A2\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: W\nProwadzący: dr inż. J. Strug\nSala: A2\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769466859531-64254638d8f99-1781242200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T073000
+DTEND:20260612T094500
+SUMMARY:Sieci komputerowe\, L2\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L2\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460046721-44ba3d5518f138-1781251200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T100000
+DTEND:20260612T121500
+SUMMARY:Podstawy baz danych\, P2\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P2\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769466807195-2e1f0af688e1d8-1781251200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T100000
+DTEND:20260612T121500
+SUMMARY:Sieci komputerowe\, L4\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L4\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474800107-1e2e105905e7-1781251200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T100000
+DTEND:20260612T121500
+SUMMARY:Programowanie technik pomiarowych\, P4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769460765163-500870ef79a57-1781260200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T123000
+DTEND:20260612T144500
+SUMMARY:Podstawy baz danych\, P4\, dr inż. J. Strug\, s. 18\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: P4\nProwadzący: dr inż. J. Strug\nSala: 18\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769466983128-c02627e929f628-1781260200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T123000
+DTEND:20260612T144500
+SUMMARY:Sieci komputerowe\, L3\, mgr inż. G. Nowakowski\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L3\nProwadzący: mgr inż. G. Nowakowski\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769474936170-e495f38b35e728-1781260200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260612T123000
+DTEND:20260612T144500
+SUMMARY:Programowanie technik pomiarowych\, P3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: P3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465062172-2ae568ea59734-1781514000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260615T110000
+DTEND:20260615T131500
+SUMMARY:Sieci komputerowe\, L6\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L6\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769473803075-aa4364eaa58a5-1781514000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260615T110000
+DTEND:20260615T131500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P3\, mgr inż. M. Raźny\, s. 208E\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P3\nProwadzący: mgr inż. M. Raźny\nSala: 208E\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769465267130-461b2ed03354a-1781523000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260615T133000
+DTEND:20260615T154500
+SUMMARY:Sieci komputerowe\, L5\, mgr inż. K. Kiełkowicz\, s. 202\, IwIKs4
+DESCRIPTION:Przedmiot: Sieci komputerowe\nGrupa: L5\nProwadzący: mgr inż. K. Kiełkowicz\nSala: 202\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469032947-0b5e0d41170e7-1781526600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260615T143000
+DTEND:20260615T160000
+SUMMARY:Mikroprocesory i mikrokontrolery\, L6\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L6\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469093689-0cf0aad223adf-1781532900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260615T161500
+DTEND:20260615T174500
+SUMMARY:Mikroprocesory i mikrokontrolery\, L5\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: L5\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769469315927-a1907551b04ca8-1781539200000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260615T180000
+DTEND:20260615T201500
+SUMMARY:Mikroprocesory i mikrokontrolery\, P4\, dr inż. S. Żaba\, s. 06\, IwIKs4
+DESCRIPTION:Przedmiot: Mikroprocesory i mikrokontrolery\nGrupa: P4\nProwadzący: dr inż. S. Żaba\nSala: 06\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450095871-1bf49a1622aa88-1781587800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T073000
+DTEND:20260616T090000
+SUMMARY:Podstawy baz danych\, Lk1\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk1\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458043775-7390829eefa6e-1781587800000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T073000
+DTEND:20260616T090000
+SUMMARY:Programowanie technik pomiarowych\, Lk2\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk2\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450156476-5135bdd708b34-1781594100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T091500
+DTEND:20260616T104500
+SUMMARY:Podstawy baz danych\, Lk2\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk2\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458089162-6cef95ff4efb7-1781594100000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T091500
+DTEND:20260616T104500
+SUMMARY:Programowanie technik pomiarowych\, Lk3\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk3\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450195939-324a839cba2928-1781600400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T110000
+DTEND:20260616T123000
+SUMMARY:Podstawy baz danych\, Lk3\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk3\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458184081-348b43cb26baf-1781600400000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T110000
+DTEND:20260616T123000
+SUMMARY:Programowanie technik pomiarowych\, Lk4\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk4\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769450265336-bdbfe3dbd59348-1781606700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T124500
+DTEND:20260616T141500
+SUMMARY:Podstawy baz danych\, Lk4\, dr inż. J. Strug\, s. 19\, IwIKs4
+DESCRIPTION:Przedmiot: Podstawy baz danych\nGrupa: Lk4\nProwadzący: dr inż. J. Strug\nSala: 19\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769458238520-9510fecff68d8-1781606700000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T124500
+DTEND:20260616T141500
+SUMMARY:Programowanie technik pomiarowych\, Lk1\, dr inż. M. Pawlik\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie technik pomiarowych\nGrupa: Lk1\nProwadzący: dr inż. M. Pawlik\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768486996447-fbbf8e796e3378-1781613000000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T143000
+DTEND:20260616T160000
+SUMMARY:Programowanie w języku JAVA\, W\, dr inż. S. Bąk\, s. A3\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: W\nProwadzący: dr inż. S. Bąk\nSala: A3\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769461438327-4025ced1f7de88-1781619300000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T161500
+DTEND:20260616T174500
+SUMMARY:Programowanie w języku JAVA\, Lk1\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: Lk1\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123101505-3863bdf55f00f8-1781625600000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T180000
+DTEND:20260616T193000
+SUMMARY:Programowanie w języku JAVA\, P4\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P4\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+BEGIN:VEVENT
+UID:1769123216187-e8e7b4aeb48a2-1781631900000@wk-plan
+DTSTAMP:20260218T225423
+DTSTART:20260616T194500
+DTEND:20260616T211500
+SUMMARY:Programowanie w języku JAVA\, P2\, dr inż. S. Bąk\, s. 201\, IwIKs4
+DESCRIPTION:Przedmiot: Programowanie w języku JAVA\nGrupa: P2\nProwadzący: dr inż. S. Bąk\nSala: 201\nKierunek: IwIKs4
+END:VEVENT
+END:VCALENDAR
