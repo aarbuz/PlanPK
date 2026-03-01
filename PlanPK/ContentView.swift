@@ -34,6 +34,9 @@ struct ContentView: View {
     
     @Environment(\.scenePhase) var scenePhase
     
+    // ZMIANA: Dodano zmienną do sprawdzania, czy onboarding został już ukończony
+    @AppStorage("hasSeenOnboarding") var hasSeenOnboarding: Bool = false
+    
     @State private var selectedDate = Date()
     @State private var showSettings = false
     @State private var showCalendar = false
@@ -55,6 +58,17 @@ struct ContentView: View {
     }
     
     var body: some View {
+        // ZMIANA: Logika decydująca, co pokazać użytkownikowi
+        if hasSeenOnboarding {
+            mainAppView
+        } else {
+            OnboardingView(hasSeenOnboarding: $hasSeenOnboarding, manager: dataManager)
+                .preferredColorScheme(preferredScheme)
+        }
+    }
+    
+    // ZMIANA: Wydzieliłem Twój stary ContentView do osobnej zmiennej "mainAppView", żeby było czyściej
+    var mainAppView: some View {
         NavigationView {
             ZStack {
                 Color(UIColor.systemGroupedBackground).ignoresSafeArea()
@@ -343,4 +357,156 @@ struct WeeklyScheduleView: View {
     }
     
     func isToday(_ date: Date) -> Bool { Calendar.current.isDateInToday(date) }
+}
+
+// ==========================================
+// EKRAN POWITALNY (ONBOARDING)
+// ==========================================
+struct OnboardingView: View {
+    @Binding var hasSeenOnboarding: Bool
+    @ObservedObject var manager: DataManager
+    @State private var currentPage = 0
+    
+    @AppStorage("selectedLabGroup") var selectedLabGroup: String = "L1"
+    @AppStorage("selectedProjGroup") var selectedProjGroup: String = "P1"
+    @AppStorage("selectedKompGroup") var selectedKompGroup: String = "Lk1"
+    @AppStorage("selectedLangGroup") var selectedLangGroup: String = "Lek1"
+    
+    var body: some View {
+        ZStack {
+            Color(UIColor.systemBackground).ignoresSafeArea()
+            
+            TabView(selection: $currentPage) {
+                // EKRAN 1: Powitanie
+                VStack(spacing: 24) {
+                    Spacer()
+                    Image(systemName: "graduationcap.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 120, height: 120)
+                        .foregroundColor(manager.theme.mainColor)
+                    
+                    Text("Witaj w PlanPK")
+                        .font(.system(size: 38, weight: .black))
+                    
+                    Text("Twój uczelniany plan zajęć na nowym poziomie. Widgety, Live Activities i pełna kontrola nad ocenami.")
+                        .font(.body)
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.secondary)
+                        .padding(.horizontal, 40)
+                        .lineSpacing(4)
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        playHaptic()
+                        withAnimation { currentPage = 1 }
+                    }) {
+                        Text("Dalej")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(manager.theme.mainColor)
+                            .cornerRadius(16)
+                            .padding(.horizontal, 40)
+                    }
+                    .padding(.bottom, 60)
+                }
+                .tag(0)
+                
+                // EKRAN 2: Wybór grup
+                VStack(spacing: 24) {
+                    Spacer()
+                    Image(systemName: "person.2.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 90, height: 90)
+                        .foregroundColor(manager.theme.mainColor)
+                    
+                    Text("Wybierz swoje grupy")
+                        .font(.system(size: 32, weight: .bold))
+                    
+                    Text("Apka automatycznie ukryje zajęcia innych grup, zostawiając tylko Twój właściwy plan.")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.secondary)
+                        .padding(.horizontal, 40)
+                    
+                    VStack(spacing: 12) {
+                        HStack { Text("Laboratoria"); Spacer(); Picker("", selection: $selectedLabGroup) { ForEach(["L1","L2","L3","L4","L5","L6"], id:\.self){ Text($0) } }.tint(manager.theme.mainColor) }
+                        HStack { Text("Projekty"); Spacer(); Picker("", selection: $selectedProjGroup) { ForEach(["P1","P2","P3","P4"], id:\.self){ Text($0) } }.tint(manager.theme.mainColor) }
+                        HStack { Text("Komputery"); Spacer(); Picker("", selection: $selectedKompGroup) { ForEach(["Lk1","Lk2","Lk3","Lk4"], id:\.self){ Text($0) } }.tint(manager.theme.mainColor) }
+                        HStack { Text("Języki"); Spacer(); Picker("", selection: $selectedLangGroup) { ForEach(["Lek1","Lek2","Lek3"], id:\.self){ Text($0) } }.tint(manager.theme.mainColor) }
+                    }
+                    .padding()
+                    .background(Color(UIColor.secondarySystemBackground))
+                    .cornerRadius(16)
+                    .padding(.horizontal, 30)
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        playHaptic()
+                        withAnimation { currentPage = 2 }
+                    }) {
+                        Text("Dalej")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(manager.theme.mainColor)
+                            .cornerRadius(16)
+                            .padding(.horizontal, 40)
+                    }
+                    .padding(.bottom, 60)
+                }
+                .tag(1)
+                
+                // EKRAN 3: Powiadomienia i Live Activities
+                VStack(spacing: 24) {
+                    Spacer()
+                    Image(systemName: "bell.badge.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 90, height: 90)
+                        .foregroundColor(manager.theme.mainColor)
+                    
+                    Text("Bądź na bieżąco")
+                        .font(.system(size: 32, weight: .bold))
+                    
+                    Text("PlanPK przypomni Ci o zajęciach 30 minut przed startem i wyświetli piękne odliczanie na zablokowanym ekranie.")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.secondary)
+                        .padding(.horizontal, 40)
+                        .lineSpacing(4)
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        playHaptic(style: .heavy)
+                        manager.requestNotificationPermission()
+                        manager.objectWillChange.send()
+                        withAnimation {
+                            hasSeenOnboarding = true
+                        }
+                    }) {
+                        Text("Zaczynamy!")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 18)
+                            .background(manager.theme.mainColor)
+                            .cornerRadius(16)
+                            .shadow(color: manager.theme.mainColor.opacity(0.4), radius: 10, x: 0, y: 5)
+                            .padding(.horizontal, 40)
+                    }
+                    .padding(.bottom, 60)
+                }
+                .tag(2)
+            }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+        }
+    }
 }
