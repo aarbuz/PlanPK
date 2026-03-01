@@ -834,6 +834,8 @@ struct SettingsView: View {
                     .tint(.orange)
                     .onChange(of: showLectures) { _ in
                         manager.objectWillChange.send()
+                        manager.exportWidgetData()
+                        manager.manageLiveActivity()
                     }
                 }
                 
