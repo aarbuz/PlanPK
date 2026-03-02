@@ -69,23 +69,20 @@ struct PlanPKWidgetEntryView : View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            HStack(spacing: 6) {
-                Text("🎓")
-                    .font(.system(size: 14))
-                Text("| PLANPK |")
-                    .font(.system(size: 11, weight: .black))
-                    .foregroundColor(.secondary)
-                Text(entry.title)
-                    .font(.system(size: 13, weight: .black))
-                    .foregroundColor(.blue)
-                    .tracking(1.0)
-                Spacer()
-                Image(systemName: "calendar")
-                    .foregroundColor(.secondary)
-                    .font(.subheadline)
-            }
-            .padding(.bottom, 12)
             
+           
+            HStack(spacing: 6) {
+                HStack(spacing: 4) {
+                    Text("🎓").font(.system(size: 13))
+                    Text("| PLANPK |").font(.system(size: 10, weight: .black)).foregroundColor(.secondary)
+                }
+                Text(entry.title).font(.system(size: 12, weight: .black)).foregroundColor(.blue).lineLimit(1)
+                Spacer()
+                Image(systemName: "calendar").foregroundColor(.secondary).font(.subheadline)
+            }
+            .padding(.bottom, 8)
+            
+            // 2. ZAWARTOŚĆ WIDGETU
             if entry.events.isEmpty {
                 Spacer()
                 Text("Czysty chill! 🍻")
@@ -95,57 +92,57 @@ struct PlanPKWidgetEntryView : View {
                 Spacer()
             } else {
                 let isSingleEvent = entry.events.count == 1
-                if isSingleEvent { Spacer() }
                 
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: 6) {
                     ForEach(entry.events) { event in
                         let isExam = entry.exams.contains(event.id) || event.category == .exam
                         let isImportant = entry.important.contains(event.id)
                         
-                        HStack(alignment: .top, spacing: 12) {
-                            VStack(alignment: .trailing, spacing: 2) {
+                        HStack(alignment: .center, spacing: 10) {
+                            VStack(alignment: .trailing, spacing: 1) {
                                 Text(event.startTime.formatted(date: .omitted, time: .shortened))
-                                    .font(.system(size: isSingleEvent ? 16 : 13, weight: .bold))
+                                    .font(.system(size: isSingleEvent ? 15 : 12, weight: .bold))
                                     .foregroundColor(.primary)
                                 Text(event.endTime.formatted(date: .omitted, time: .shortened))
-                                    .font(.system(size: isSingleEvent ? 13 : 11, weight: .medium))
+                                    .font(.system(size: isSingleEvent ? 12 : 10, weight: .medium))
                                     .foregroundColor(.secondary)
                             }
-                            .frame(width: isSingleEvent ? 50 : 45, alignment: .trailing)
+                            .frame(width: isSingleEvent ? 45 : 40, alignment: .trailing)
                             
                             RoundedRectangle(cornerRadius: 3)
                                 .fill(event.classType?.color ?? Color.blue)
-                                .frame(width: isSingleEvent ? 5 : 4)
-                                .padding(.vertical, 2)
+                                .frame(width: 4)
+                                .padding(.vertical, 4)
                             
-                            VStack(alignment: .leading, spacing: isSingleEvent ? 8 : 4) {
+                            VStack(alignment: .leading, spacing: 2) {
+                               
                                 Text(event.title)
-                                    .font(.system(size: isSingleEvent ? 16 : 13, weight: .bold))
-                                    .lineLimit(isSingleEvent ? 3 : 2)
-                                    .minimumScaleFactor(0.65)
-                                    .fixedSize(horizontal: false, vertical: true)
+                                    .font(.system(size: isSingleEvent ? 24 : 20, weight: .black))
+                                    .lineLimit(1)
+                                    .minimumScaleFactor(0.4)
                                 
-                                HStack(spacing: isSingleEvent ? 8 : 6) {
+                                HStack(spacing: 6) {
                                     Text(event.classType?.rawValue ?? "Inne")
-                                        .font(.system(size: isSingleEvent ? 12 : 10, weight: .black))
-                                        .padding(.horizontal, isSingleEvent ? 8 : 5)
-                                        .padding(.vertical, isSingleEvent ? 4 : 2)
-                                        .background((event.classType?.color ?? .gray).opacity(0.2))
+                                        .font(.system(size: 10, weight: .bold))
+                                        .padding(.horizontal, 5)
+                                        .padding(.vertical, 1)
+                                        .background((event.classType?.color ?? .gray).opacity(0.15))
                                         .foregroundColor(event.classType?.color ?? .gray)
-                                        .cornerRadius(isSingleEvent ? 6 : 4)
+                                        .cornerRadius(4)
                                     
-                                    HStack(spacing: 4) {
+                                    HStack(spacing: 3) {
                                         Image(systemName: "location.fill")
-                                            .font(.system(size: isSingleEvent ? 12 : 10))
+                                            .font(.system(size: 10))
                                         Text(event.room)
-                                            .font(.system(size: isSingleEvent ? 14 : 12, weight: .bold))
+                                            .font(.system(size: 12, weight: .bold))
                                     }
                                     .foregroundColor(.secondary)
                                 }
                             }
                             Spacer(minLength: 0)
                         }
-                        .padding(8)
+                        .padding(.vertical, 4)
+                        .padding(.horizontal, 6)
                         .background(
                             Color(UIColor.secondarySystemGroupedBackground)
                                 .opacity(isExam || isImportant ? 1.0 : 0.0)
@@ -158,10 +155,11 @@ struct PlanPKWidgetEntryView : View {
                     }
                 }
                 
-                if isSingleEvent { Spacer() } else { Spacer(minLength: 0) }
+                Spacer(minLength: 0)
             }
         }
-        .padding(16)
+        .padding(.horizontal, 12) 
+        .padding(.vertical, 12)
         .containerBackground(Color(UIColor.systemBackground), for: .widget)
     }
 }
@@ -178,6 +176,7 @@ struct PlanPKWidget: Widget {
     }
 }
 
+// Reszta kodu (LiveActivity) pozostaje bez zmian...
 struct PlanPKWidgetLiveActivity: Widget {
     var body: some WidgetConfiguration {
         ActivityConfiguration(for: LiveClassAttributes.self) { context in
