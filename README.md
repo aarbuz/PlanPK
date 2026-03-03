@@ -28,7 +28,24 @@ Projekt został zbudowany z wykorzystaniem nowoczesnych narzędzi Apple:
 - **ActivityKit** – Obsługa Live Activities na Lock Screen i Dynamic Island.
 - **EventKit** – Bezpośrednia integracja z systemowym kalendarzem iOS.
 - **Combine** – Reaktywne zarządzanie stanem i odświeżanie UI.
+- 
+## 📱 Instalacja (Plik .ipa)
 
+Jeśli nie chcesz kompilować kodu samodzielnie, możesz zainstalować gotową aplikację bezpośrednio na swojego iPhone'a:
+
+1. Przejdź do zakładki **Releases** w tym repozytorium i pobierz najnowszy plik `PlanPK.ipa`.
+2. Do instalacji wykorzystaj darmowe narzędzie **Sideloadly** lub **AltStore** (wymagają komputera PC lub Mac).
+3. Po zainstalowaniu aplikacji, wejdź w telefonie w:
+   `Ustawienia` -> `Ogólne` -> `VPN i zarządzanie urządzeniami`.
+4. Kliknij swój Apple ID i wybierz **"Zaufaj"**.
+
+### 🎥 Poradnik Wideo
+Jeśli nie wiesz jak zainstalować plik .ipa, obejrzyj ten pomocny poradnik na YouTube, który przeprowadzi Cię przez cały proces krok po kroku:
+
+[![Instalacja IPA](https://img.shields.io/badge/YouTube-Zobacz_poradnik-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=vqTsavQc3lQ)
+
+> **Uwaga:** Ze względu na ograniczenia darmowych kont Apple Developer, aplikację zainstalowaną tą metodą należy "odświeżyć" raz na 7 dni w programie Sideloadly/AltStore.
+> 
 ## 🚀 Jak uruchomić projekt?
 
 1. Sklonuj to repozytorium:
