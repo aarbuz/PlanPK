@@ -2,6 +2,7 @@ import SwiftUI
 import UIKit
 import WidgetKit
 import Combine
+import UniformTypeIdentifiers
 
 func playHaptic(style: UIImpactFeedbackGenerator.FeedbackStyle = .light) {
     let generator = UIImpactFeedbackGenerator(style: style)
@@ -14,6 +15,27 @@ struct ShareSheet: UIViewControllerRepresentable {
         UIActivityViewController(activityItems: items, applicationActivities: nil)
     }
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+}
+
+struct BackupDocument: FileDocument {
+    static var readableContentTypes: [UTType] { [.json] }
+    var data: Data
+    
+    init(data: Data) {
+        self.data = data
+    }
+    
+    init(configuration: ReadConfiguration) throws {
+        if let data = configuration.file.regularFileContents {
+            self.data = data
+        } else {
+            throw CocoaError(.fileReadCorruptFile)
+        }
+    }
+    
+    func fileWrapper(configuration: WriteConfiguration) throws -> FileWrapper {
+        return FileWrapper(regularFileWithContents: data)
+    }
 }
 
 struct EnhancedEventCard: View {
@@ -210,6 +232,7 @@ struct EnhancedEventCard: View {
                 }
             }
         }
+        .id(event.id)
     }
 }
 
@@ -390,14 +413,16 @@ struct AddEventView: View {
     @State private var customCategoryName = ""
     @State private var date: Date
     @State private var startTime: Date
+    @State private var endTime: Date
     @State private var specialTag: Int = 0
-    @State private var reminderMinutes: Int = 0
+    @State private var reminderPreset: Int = 30
     
     init(manager: DataManager, defaultDate: Date) {
         self.manager = manager
         self.defaultDate = defaultDate
         _date = State(initialValue: defaultDate)
         _startTime = State(initialValue: Date())
+        _endTime = State(initialValue: Date().addingTimeInterval(5400))
     }
     
     var body: some View {
@@ -416,7 +441,8 @@ struct AddEventView: View {
                 }
                 Section(header: Text("Kiedy? ⏰")) {
                     DatePicker("Data", selection: $date, displayedComponents: .date)
-                    DatePicker("Start", selection: $startTime, displayedComponents: .hourAndMinute)
+                    DatePicker("Rozpoczęcie", selection: $startTime, displayedComponents: .hourAndMinute)
+                    DatePicker("Zakończenie", selection: $endTime, displayedComponents: .hourAndMinute)
                     TextField("Sala", text: $room)
                 }
                 Section(header: Text("Opcje ⚙️")) {
@@ -426,13 +452,11 @@ struct AddEventView: View {
                         Text("🚨 Kolokwium").tag(2)
                     }.pickerStyle(.segmented)
                     
-                    Picker("Przypomnienie", selection: $reminderMinutes) {
+                    Picker("Powiadomienia", selection: $reminderPreset) {
                         Text("Brak").tag(0)
-                        Text("15 min przed").tag(15)
-                        Text("30 min przed").tag(30)
-                        Text("1 godz. przed").tag(60)
-                        Text("1 dzień przed").tag(1440)
-                        Text("1 tydzień przed").tag(10080)
+                        Text("Tylko 30 min przed").tag(30)
+                        Text("Dzień wcześniej i 30 min przed").tag(1)
+                        Text("Tydzień, dzień i 30 min przed").tag(2)
                     }
                 }
                 Section(header: Text("Info ℹ️")) {
@@ -447,30 +471,37 @@ struct AddEventView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Zapisz") {
                         playHaptic(style: .medium)
-                        let fullStart = combineDateAndTime(date, startTime)
+                        let finalStart = combineDateAndTime(date, startTime)
+                        let finalEnd = combineDateAndTime(date, endTime)
+                        
+                        var customRemindersList: [Int] = []
+                        switch reminderPreset {
+                        case 30: customRemindersList = [30]
+                        case 1: customRemindersList = [1440, 30]
+                        case 2: customRemindersList = [10080, 1440, 30]
+                        default: customRemindersList = []
+                        }
+                        
                         let newEvent = AppEvent(
                             id: UUID().uuidString,
                             title: title.isEmpty ? "Wydarzenie" : title,
                             lecturer: lecturer.isEmpty ? "Własne" : lecturer,
                             room: room.isEmpty ? "-" : room,
                             date: date,
-                            startTime: fullStart,
-                            endTime: fullStart.addingTimeInterval(5400),
+                            startTime: finalStart,
+                            endTime: finalEnd,
                             category: category,
                             classType: nil,
                             group: nil,
                             isUserCreated: true,
-                            customCategory: category == .other && !customCategoryName.isEmpty ? customCategoryName : nil
+                            customCategory: category == .other && !customCategoryName.isEmpty ? customCategoryName : nil,
+                            customReminders: customRemindersList
                         )
                         manager.addUserEvent(newEvent)
                         
                         if specialTag == 1 { manager.toggleImportant(for: newEvent.id, event: newEvent) }
                         else if specialTag == 2 { manager.toggleExam(for: newEvent.id, event: newEvent) }
                         
-                        if reminderMinutes > 0 && specialTag == 0 {
-                            let text = reminderMinutes >= 1440 ? (reminderMinutes == 1440 ? "1 dzień" : "1 tydzień") : "\(reminderMinutes) min"
-                            manager.scheduleCustomNotif(id: "remind_\(newEvent.id)", title: "Przypomnienie: \(newEvent.title)", body: "Zaczyna się za \(text)", date: newEvent.startTime.addingTimeInterval(-Double(reminderMinutes * 60)))
-                        }
                         dismiss()
                     }.disabled(title.isEmpty)
                 }
@@ -800,11 +831,16 @@ struct SettingsView: View {
     @AppStorage("selectedJavaGroup") var selectedJavaGroup: String = "1"
     @AppStorage("appTheme") var appThemeRaw: String = AppThemeConfig.blue.rawValue
     @AppStorage("enableLiveActivities") var enableLiveActivities: Bool = true
-    
     @AppStorage("showLectures") var showLectures: Bool = true
     
     @State private var showArchivePrompt = false
     @State private var archiveName = "Semestr Zimowy 2025"
+    
+    @State private var showFileExporter = false
+    @State private var backupDocument: BackupDocument = BackupDocument(data: Data())
+    @State private var showFileImporter = false
+    @State private var alertMessage = ""
+    @State private var showAlertInfo = false
     
     var body: some View {
         NavigationView {
@@ -844,6 +880,7 @@ struct SettingsView: View {
                         ForEach(["1","2","3","4"], id: \.self) { num in Text("Grupa \(num) (Lk\(num) / P\(num))").tag(num) }
                     }
                 }
+                
                 Section(header: Text("Personalizacja i Bateria 🔋")) {
                     Toggle(isOn: $enableLiveActivities) {
                         HStack {
@@ -863,6 +900,7 @@ struct SettingsView: View {
                         manager.manageLiveActivity()
                     }
                 }
+                
                 Section(header: Text("Kalendarz Apple 📅"), footer: Text("Wyeksportuj swój nadchodzący plan lekcji do systemowego kalendarza.")) {
                     Button(action: {
                         playHaptic()
@@ -893,6 +931,19 @@ struct SettingsView: View {
                     NavigationLink("Archiwum Semestrów", destination: ArchivesListView(manager: manager))
                     Button("Zakończ obecny semestr") { showArchivePrompt = true }.foregroundColor(.red)
                 }
+                
+                Section(header: Text("Kopia Zapasowa 💾"), footer: Text("Zapisz swoje oceny, notatki, ustawienia i dodane wydarzenia do pliku .json na swoim telefonie, iCloud lub wyślij znajomym.")) {
+                    Button("Eksportuj dane do pliku") {
+                        if let data = manager.generateBackupData() {
+                            backupDocument = BackupDocument(data: data)
+                            showFileExporter = true
+                        }
+                    }.foregroundColor(.blue)
+                    
+                    Button("Importuj dane z pliku") {
+                        showFileImporter = true
+                    }.foregroundColor(.orange)
+                }
             }
             .navigationTitle("Ustawienia")
             .toolbar {
@@ -907,6 +958,35 @@ struct SettingsView: View {
                     manager.archiveSemester(name: archiveName, currentAverage: avg)
                 }
             } message: { Text("Twoje oceny, nieobecności i notatki zostaną przeniesione do archiwum.") }
+            .fileExporter(isPresented: $showFileExporter, document: backupDocument, contentType: .json, defaultFilename: "PlanPK_Backup") { result in
+                switch result {
+                case .success(_):
+                    alertMessage = "Kopia zapasowa zapisana pomyślnie!"
+                    showAlertInfo = true
+                case .failure(let error):
+                    alertMessage = "Błąd zapisu: \(error.localizedDescription)"
+                    showAlertInfo = true
+                }
+            }
+            .fileImporter(isPresented: $showFileImporter, allowedContentTypes: [.json]) { result in
+                switch result {
+                case .success(let url):
+                    if url.startAccessingSecurityScopedResource() {
+                        manager.restoreFromBackup(url: url)
+                        url.stopAccessingSecurityScopedResource()
+                        alertMessage = "Dane przywrócone pomyślnie!"
+                        showAlertInfo = true
+                    }
+                case .failure(let error):
+                    alertMessage = "Błąd importu: \(error.localizedDescription)"
+                    showAlertInfo = true
+                }
+            }
+            .alert("Informacja", isPresented: $showAlertInfo) {
+                Button("OK", role: .cancel) { }
+            } message: {
+                Text(alertMessage)
+            }
         }
     }
 }

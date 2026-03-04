@@ -1,3 +1,4 @@
+// PlanPKWidget.swift
 import WidgetKit
 import SwiftUI
 import ActivityKit
@@ -70,7 +71,7 @@ struct PlanPKWidgetEntryView : View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             
-           
+            // 1. NAGŁÓWEK
             HStack(spacing: 6) {
                 HStack(spacing: 4) {
                     Text("🎓").font(.system(size: 13))
@@ -115,7 +116,6 @@ struct PlanPKWidgetEntryView : View {
                                 .padding(.vertical, 4)
                             
                             VStack(alignment: .leading, spacing: 2) {
-                               
                                 Text(event.title)
                                     .font(.system(size: isSingleEvent ? 24 : 20, weight: .black))
                                     .lineLimit(1)
@@ -158,7 +158,7 @@ struct PlanPKWidgetEntryView : View {
                 Spacer(minLength: 0)
             }
         }
-        .padding(.horizontal, 12) 
+        .padding(.horizontal, 12)
         .padding(.vertical, 12)
         .containerBackground(Color(UIColor.systemBackground), for: .widget)
     }
@@ -176,7 +176,6 @@ struct PlanPKWidget: Widget {
     }
 }
 
-// Reszta kodu (LiveActivity) pozostaje bez zmian...
 struct PlanPKWidgetLiveActivity: Widget {
     var body: some WidgetConfiguration {
         ActivityConfiguration(for: LiveClassAttributes.self) { context in
@@ -232,13 +231,15 @@ struct PlanPKWidgetLiveActivity: Widget {
                         Text("KONIEC ZA:")
                             .font(.system(size: 10, weight: .heavy))
                             .foregroundColor(.gray)
-                        Text(context.attributes.endTime, style: .relative)
+                            
+                        Text(timerInterval: context.attributes.startTime...context.attributes.endTime, countsDown: true)
                             .font(.system(size: 18, weight: .black))
                             .foregroundColor(.cyan)
                             .multilineTextAlignment(.trailing)
                     }
                 }
-                ProgressView(timerInterval: context.attributes.startTime...context.attributes.endTime)
+                // ZMIANA: Zmuszenie paska do wypełniania się z lewej do prawej
+                ProgressView(timerInterval: context.attributes.startTime...context.attributes.endTime, countsDown: false)
                     .labelsHidden()
                     .tint(.cyan)
                     .frame(height: 8)
@@ -255,7 +256,7 @@ struct PlanPKWidgetLiveActivity: Widget {
                     }
                 }
                 DynamicIslandExpandedRegion(.trailing) {
-                    Text(context.attributes.endTime, style: .relative)
+                    Text(timerInterval: context.attributes.startTime...context.attributes.endTime, countsDown: true)
                         .font(.subheadline)
                         .fontWeight(.bold)
                         .foregroundColor(.cyan)
@@ -274,7 +275,8 @@ struct PlanPKWidgetLiveActivity: Widget {
                             .fontWeight(.black)
                             .foregroundColor(.gray)
                         
-                        ProgressView(timerInterval: context.attributes.startTime...context.attributes.endTime)
+                        // ZMIANA: Zmuszenie paska do wypełniania się z lewej do prawej
+                        ProgressView(timerInterval: context.attributes.startTime...context.attributes.endTime, countsDown: false)
                             .labelsHidden()
                             .tint(.cyan)
                     }
@@ -285,7 +287,7 @@ struct PlanPKWidgetLiveActivity: Widget {
                     Text(context.attributes.room).bold().font(.caption)
                 }
             } compactTrailing: {
-                Text(context.attributes.endTime, style: .relative)
+                Text(timerInterval: context.attributes.startTime...context.attributes.endTime, countsDown: true)
                     .font(.caption2)
                     .fontWeight(.bold)
                     .foregroundColor(.cyan)

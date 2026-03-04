@@ -76,6 +76,36 @@ class DataManager: ObservableObject {
         exportWidgetData()
     }
     
+    func generateBackupData() -> Data? {
+        let backup = PlanPKBackup(
+            userEvents: loadUserEvents(), customNotes: customNotes, customRooms: customRooms,
+            cancelledEvents: cancelledEvents, absencesDates: absencesDates, absenceLimits: absenceLimits,
+            grades: grades, archives: archives, markedExams: markedExams,
+            markedImportant: markedImportant, syllabuses: syllabuses, customTimes: customTimes
+        )
+        return try? JSONEncoder().encode(backup)
+    }
+    
+    func restoreFromBackup(url: URL) {
+        guard let data = try? Data(contentsOf: url),
+              let backup = try? JSONDecoder().decode(PlanPKBackup.self, from: data) else { return }
+        
+        saveToCloud(data: backup.userEvents, key: userEventsKey)
+        saveToCloud(data: backup.customNotes, key: notesKey)
+        saveToCloud(data: backup.customRooms, key: roomsKey)
+        saveToCloud(data: backup.cancelledEvents, key: cancelledKey)
+        saveToCloud(data: backup.absencesDates, key: absencesKey)
+        saveToCloud(data: backup.absenceLimits, key: limitsKey)
+        saveToCloud(data: backup.grades, key: gradesKey)
+        saveToCloud(data: backup.archives, key: archivesKey)
+        saveToCloud(data: backup.markedExams, key: markedExamsKey)
+        saveToCloud(data: backup.markedImportant, key: markedImportantKey)
+        saveToCloud(data: backup.syllabuses, key: syllabusesKey)
+        saveToCloud(data: backup.customTimes, key: customTimesKey)
+        
+        loadData()
+    }
+    
     func exportToAppleCalendar() {
         let store = EKEventStore()
         exportStatus = "Sprawdzam uprawnienia..."
@@ -158,7 +188,16 @@ class DataManager: ObservableObject {
         guard let filepath = Bundle.main.path(forResource: fileName, ofType: "ics") else { return [] }
         do {
             let contents = try String(contentsOfFile: filepath, encoding: .utf8)
-            let lines = contents.replacingOccurrences(of: "\r\n", with: "\n").components(separatedBy: .newlines); var events: [AppEvent] = []; var currentSummary = "", currentDtStart = "", currentDtEnd = ""; var insideEvent = false; let f = DateFormatter(); f.dateFormat = "yyyyMMdd'T'HHmmss"; f.timeZone = TimeZone.current
+            let lines = contents.replacingOccurrences(of: "\r\n", with: "\n").components(separatedBy: .newlines)
+            var events: [AppEvent] = []
+            var currentSummary = "", currentDtStart = "", currentDtEnd = ""
+            var insideEvent = false
+            let f = DateFormatter()
+            f.dateFormat = "yyyyMMdd'T'HHmmss"
+            f.timeZone = TimeZone.current
+            
+            var usedIDs = Set<String>() // Zapamiętuje użyte ID, żeby unikać duplikatów!
+            
             for line in lines {
                 let clean = line.trimmingCharacters(in: .whitespacesAndNewlines)
                 if clean == "BEGIN:VEVENT" { insideEvent = true; currentSummary = ""; currentDtStart = ""; currentDtEnd = "" }
@@ -168,8 +207,18 @@ class DataManager: ObservableObject {
                             let name = parts[0].trimmingCharacters(in: .whitespaces); let groupRaw = parts[1].trimmingCharacters(in: .whitespaces); var lecturer = "Nieznany"; if parts.count > 2 { lecturer = parts[2].trimmingCharacters(in: .whitespaces) }
                             var room = "Brak sali"; for part in parts { let p = part.trimmingCharacters(in: .whitespaces); if p.starts(with: "s.") || ["A1", "A2", "A3", "A4", "201", "202", "06", "19", "10", "101B"].contains(p) { room = p.replacingOccurrences(of: "s.", with: "").trimmingCharacters(in: .whitespaces) } }
                             var type: ClassType = .unknown; if groupRaw == "W" { type = .wyklad } else if groupRaw.starts(with: "Lek") { type = .lek } else if groupRaw.starts(with: "Lk") { type = .labK } else if groupRaw.starts(with: "L") { type = .lab } else if groupRaw.starts(with: "P") { type = .proj }
-                            let uniqueID = "\(name.replacingOccurrences(of: " ", with: ""))_\(start.timeIntervalSince1970)"
-                            events.append(AppEvent(id: uniqueID, title: name, lecturer: lecturer, room: room, date: start, startTime: start, endTime: end, category: nil, classType: type, group: groupRaw, isUserCreated: false))
+                            
+                            // Bezpieczny generator unikalnego ID dla każdego wydarzenia
+                            let baseID = "\(name.replacingOccurrences(of: " ", with: ""))_\(currentDtStart)_\(room.replacingOccurrences(of: " ", with: ""))"
+                            var finalID = baseID
+                            var counter = 1
+                            while usedIDs.contains(finalID) {
+                                finalID = "\(baseID)_\(counter)"
+                                counter += 1
+                            }
+                            usedIDs.insert(finalID)
+                            
+                            events.append(AppEvent(id: finalID, title: name, lecturer: lecturer, room: room, date: start, startTime: start, endTime: end, category: nil, classType: type, group: groupRaw, isUserCreated: false))
                         }
                     }
                 } else if insideEvent { if clean.starts(with: "SUMMARY:") { currentSummary = String(clean.dropFirst(8)) } else if clean.starts(with: "DTSTART:") { currentDtStart = String(clean.dropFirst(8)) } else if clean.starts(with: "DTEND:") { currentDtEnd = String(clean.dropFirst(6)) } }
@@ -181,10 +230,22 @@ class DataManager: ObservableObject {
     func saveToCloud<T: Encodable>(data: T, key: String) { if let encoded = try? JSONEncoder().encode(data) { store.set(encoded, forKey: key); store.synchronize(); UserDefaults.standard.set(encoded, forKey: key) } }
     func loadFromCloud<T: Decodable>(key: String, type: T.Type) -> T? { let data = store.data(forKey: key) ?? UserDefaults.standard.data(forKey: key); if let data = data, let decoded = try? JSONDecoder().decode(T.self, from: data) { return decoded }; return nil }
     
-    func toggleCancel(for id: String) { if cancelledEvents.contains(id) { cancelledEvents.remove(id) } else { cancelledEvents.insert(id) }; saveToCloud(data: cancelledEvents, key: cancelledKey); objectWillChange.send(); exportWidgetData() }
-    func scheduleCustomNotif(id: String, title: String, body: String, date: Date) { if date > Date() { let content = UNMutableNotificationContent(); content.title = title; content.body = body; content.sound = .default; let comps = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: date); let trigger = UNCalendarNotificationTrigger(dateMatching: comps, repeats: false); UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: id, content: content, trigger: trigger)) } }
-    func toggleExam(for id: String, event: AppEvent) { if markedExams.contains(id) { markedExams.remove(id); UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["exam_5d_\(id)"]) } else { markedExams.insert(id); markedImportant.remove(id); UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["important_7d_\(id)"]); scheduleCustomNotif(id: "exam_5d_\(id)", title: "🚨 Kolokwium za 5 dni!", body: "Czas zacząć naukę do: \(event.title)", date: event.startTime.addingTimeInterval(-5 * 24 * 3600)) }; saveToCloud(data: markedExams, key: markedExamsKey); saveToCloud(data: markedImportant, key: markedImportantKey); objectWillChange.send(); exportWidgetData() }
-    func toggleImportant(for id: String, event: AppEvent) { if markedImportant.contains(id) { markedImportant.remove(id); UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["important_7d_\(id)"]) } else { markedImportant.insert(id); markedExams.remove(id); UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["exam_5d_\(id)"]); scheduleCustomNotif(id: "important_7d_\(id)", title: "⭐ Ważne zajęcia za tydzień!", body: "Przypomnienie: \(event.title)", date: event.startTime.addingTimeInterval(-7 * 24 * 3600)) }; saveToCloud(data: markedExams, key: markedExamsKey); saveToCloud(data: markedImportant, key: markedImportantKey); objectWillChange.send(); exportWidgetData() }
+    func toggleCancel(for id: String) {
+        if cancelledEvents.contains(id) { cancelledEvents.remove(id) } else { cancelledEvents.insert(id) }
+        saveToCloud(data: cancelledEvents, key: cancelledKey); objectWillChange.send(); exportWidgetData(); scheduleNotifications()
+    }
+    
+    func toggleExam(for id: String, event: AppEvent) {
+        if markedExams.contains(id) { markedExams.remove(id) } else { markedExams.insert(id); markedImportant.remove(id) }
+        saveToCloud(data: markedExams, key: markedExamsKey); saveToCloud(data: markedImportant, key: markedImportantKey)
+        objectWillChange.send(); exportWidgetData(); scheduleNotifications()
+    }
+    
+    func toggleImportant(for id: String, event: AppEvent) {
+        if markedImportant.contains(id) { markedImportant.remove(id) } else { markedImportant.insert(id); markedExams.remove(id) }
+        saveToCloud(data: markedExams, key: markedExamsKey); saveToCloud(data: markedImportant, key: markedImportantKey)
+        objectWillChange.send(); exportWidgetData(); scheduleNotifications()
+    }
     
     func saveNote(for id: String, note: String) { if note.isEmpty { customNotes.removeValue(forKey: id) } else { customNotes[id] = note }; saveToCloud(data: customNotes, key: notesKey); objectWillChange.send() }
     func saveRoom(for id: String, room: String) { if room.isEmpty { customRooms.removeValue(forKey: id) } else { customRooms[id] = room }; saveToCloud(data: customRooms, key: roomsKey); objectWillChange.send(); exportWidgetData() }
@@ -212,37 +273,55 @@ class DataManager: ObservableObject {
     
     private func loadUserEvents() -> [AppEvent] { return loadFromCloud(key: userEventsKey, type: [AppEvent].self) ?? [] }
     func addUserEvent(_ event: AppEvent) { var current = loadFromCloud(key: userEventsKey, type: [AppEvent].self) ?? []; current.append(event); saveToCloud(data: current, key: userEventsKey); loadData() }
-    func deleteUserEvent(id: String) { var current = loadFromCloud(key: userEventsKey, type: [AppEvent].self) ?? []; current.removeAll { $0.id == id }; saveToCloud(data: current, key: userEventsKey); loadData() }
+    func deleteUserEvent(id: String) {
+        var current = loadFromCloud(key: userEventsKey, type: [AppEvent].self) ?? []
+        current.removeAll { $0.id == id }
+        saveToCloud(data: current, key: userEventsKey)
+        loadData()
+    }
     
     func requestNotificationPermission() { UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in if granted { DispatchQueue.main.async { self.scheduleNotifications(); self.scheduleMorningBriefings() } } } }
     
     private func scheduleNotifications() {
-        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: allEvents.map { $0.id })
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
         let now = Date()
         let upcoming = filteredEvents(forDate: nil, mode: .myPlan, searchText: "").filter { $0.startTime > now && !cancelledEvents.contains($0.id) }
         
-        for event in upcoming.prefix(50) {
+        for event in upcoming.prefix(60) {
             let content = UNMutableNotificationContent()
+            content.sound = .default
+            
+            var reminderMinutes = [30]
+            
             if event.isUserCreated {
                 let catName = event.customCategory?.uppercased() ?? event.category?.rawValue.uppercased() ?? "INNE"
                 content.title = "WŁASNE | \(catName) | \(event.title.uppercased())"
+                if let customMins = event.customReminders { reminderMinutes = customMins }
             } else {
                 let typeName = event.classType?.rawValue.uppercased() ?? "INNE"
                 content.title = "ZAJĘCIA | \(typeName) | \(event.title.uppercased())"
+                if markedExams.contains(event.id) { reminderMinutes.append(7200) }
+                if markedImportant.contains(event.id) { reminderMinutes.append(10080) }
             }
-            content.body = "Zaczynają się za 30 min w sali \(event.room)"
-            content.sound = .default
             
-            let triggerDate = event.startTime.addingTimeInterval(-30 * 60)
-            if triggerDate > now {
-                let comps = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: triggerDate)
-                let trigger = UNCalendarNotificationTrigger(dateMatching: comps, repeats: false)
-                UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: event.id, content: content, trigger: trigger))
+            for min in reminderMinutes {
+                let triggerDate = event.startTime.addingTimeInterval(-Double(min * 60))
+                if triggerDate > now {
+                    let timeText = min >= 1440 ? (min % 1440 == 0 ? "\(min/1440) dni" : "") : "\(min) min"
+                    content.body = "Zaczynają się za \(timeText) w sali \(event.room)"
+                    if markedExams.contains(event.id) && min == 7200 { content.title = "🚨 Kolokwium za 5 dni!"; content.body = "Czas zacząć naukę do: \(event.title)" }
+                    if markedImportant.contains(event.id) && min == 10080 { content.title = "⭐ Ważne zajęcia za tydzień!"; content.body = "Przypomnienie: \(event.title)" }
+                    
+                    let comps = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: triggerDate)
+                    let trigger = UNCalendarNotificationTrigger(dateMatching: comps, repeats: false)
+                    UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: "\(event.id)_remind_\(min)", content: content, trigger: trigger))
+                }
             }
         }
+        scheduleMorningBriefings()
     }
     
-    private func scheduleMorningBriefings() { UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: (0..<7).map { "briefing_\($0)" }); let calendar = Calendar.current; let now = Date(); for i in 0..<7 { guard let date = calendar.date(byAdding: .day, value: i, to: now), let targetDate = calendar.date(bySettingHour: 7, minute: 0, second: 0, of: date) else { continue }; if targetDate < now { continue }; let dayEvents = filteredEvents(forDate: date, mode: .myPlan, searchText: "").filter { !cancelledEvents.contains($0.id) }; let content = UNMutableNotificationContent(); content.sound = .default; if dayEvents.isEmpty { content.title = "Dzień Dobry! ☀️"; content.body = "Śpij spokojnie, dzisiaj masz całkowicie wolne." } else { let first = dayEvents.first!; let last = dayEvents.last!; let f = DateFormatter(); f.dateFormat = "HH:mm"; content.title = "Plan na dziś: \(dayEvents.count) zajęć 🎓"; content.body = "Zaczynasz o \(f.string(from: first.startTime)), a kończysz o \(f.string(from: last.endTime)). Powodzenia!" }; let comps = calendar.dateComponents([.year, .month, .day, .hour, .minute], from: targetDate); let trigger = UNCalendarNotificationTrigger(dateMatching: comps, repeats: false); UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: "briefing_\(i)", content: content, trigger: trigger)) } }
+    private func scheduleMorningBriefings() { let calendar = Calendar.current; let now = Date(); for i in 0..<7 { guard let date = calendar.date(byAdding: .day, value: i, to: now), let targetDate = calendar.date(bySettingHour: 7, minute: 0, second: 0, of: date) else { continue }; if targetDate < now { continue }; let dayEvents = filteredEvents(forDate: date, mode: .myPlan, searchText: "").filter { !cancelledEvents.contains($0.id) }; let content = UNMutableNotificationContent(); content.sound = .default; if dayEvents.isEmpty { content.title = "Dzień Dobry! ☀️"; content.body = "Śpij spokojnie, dzisiaj masz całkowicie wolne." } else { let first = dayEvents.first!; let last = dayEvents.last!; let f = DateFormatter(); f.dateFormat = "HH:mm"; content.title = "Plan na dziś: \(dayEvents.count) zajęć 🎓"; content.body = "Zaczynasz o \(f.string(from: first.startTime)), a kończysz o \(f.string(from: last.endTime)). Powodzenia!" }; let comps = calendar.dateComponents([.year, .month, .day, .hour, .minute], from: targetDate); let trigger = UNCalendarNotificationTrigger(dateMatching: comps, repeats: false); UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: "briefing_\(i)", content: content, trigger: trigger)) } }
     
     enum ViewMode { case myPlan, fullPlan }
     
@@ -289,36 +368,62 @@ class DataManager: ObservableObject {
     }
   
     func manageLiveActivity() {
-        if !enableLiveActivities {
-            for activity in Activity<LiveClassAttributes>.activities {
-                Task { await activity.end(nil, dismissalPolicy: .immediate) }
+        guard enableLiveActivities else {
+            Task {
+                for activity in Activity<LiveClassAttributes>.activities {
+                    await activity.end(nil, dismissalPolicy: .immediate)
+                }
             }
             return
         }
         
         let now = Date()
         let myEvents = filteredEvents(forDate: now, mode: .myPlan, searchText: "")
-        let currentEvent = myEvents.first(where: { $0.isHappeningNow(at: now) && !cancelledEvents.contains($0.id) })
-        
+        let currentEvent = myEvents.first(where: { $0.startTime <= now && $0.endTime > now && !cancelledEvents.contains($0.id) })
         let contentState = LiveClassAttributes.ContentState()
         let activityContent = ActivityContent(state: contentState, staleDate: nil)
         
-        for activity in Activity<LiveClassAttributes>.activities {
-            if now >= activity.attributes.endTime {
-                Task { await activity.end(nil, dismissalPolicy: .immediate) }
-                continue
+        Task {
+            if let event = currentEvent {
+                let typeName = event.classType?.rawValue ?? "Inne"
+                
+                if let activity = Activity<LiveClassAttributes>.activities.first {
+                    if activity.attributes.endTime != event.endTime || activity.attributes.startTime != event.startTime || activity.attributes.room != event.room {
+                        await activity.end(nil, dismissalPolicy: .immediate)
+                        let attributes = LiveClassAttributes(
+                            className: event.title,
+                            room: event.room,
+                            startTime: event.startTime,
+                            endTime: event.endTime,
+                            typeName: typeName
+                        )
+                        do {
+                            _ = try Activity.request(attributes: attributes, content: activityContent, pushType: nil)
+                        } catch {
+                            print(error.localizedDescription)
+                        }
+                    } else {
+                        await activity.update(activityContent)
+                    }
+                } else {
+                    let attributes = LiveClassAttributes(
+                        className: event.title,
+                        room: event.room,
+                        startTime: event.startTime,
+                        endTime: event.endTime,
+                        typeName: typeName
+                    )
+                    do {
+                        _ = try Activity.request(attributes: attributes, content: activityContent, pushType: nil)
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                }
+            } else {
+                for activity in Activity<LiveClassAttributes>.activities {
+                    await activity.end(nil, dismissalPolicy: .immediate)
+                }
             }
-            if currentEvent == nil || activity.attributes.className != currentEvent?.title {
-                Task { await activity.end(activityContent, dismissalPolicy: .immediate) }
-            }
-        }
-        
-        if let event = currentEvent {
-            if Activity<LiveClassAttributes>.activities.contains(where: { $0.attributes.className == event.title }) { return }
-            let typeName = event.classType?.rawValue ?? "Inne"
-            let attributes = LiveClassAttributes(className: event.title, room: event.room, startTime: event.startTime, endTime: event.endTime, typeName: typeName)
-            do { _ = try Activity.request(attributes: attributes, content: activityContent, pushType: nil) }
-            catch { print("Błąd Live Activity: \(error.localizedDescription)") }
         }
     }
         
@@ -327,6 +432,7 @@ class DataManager: ObservableObject {
         saveToCloud(data: customTimes, key: customTimesKey)
         WidgetCenter.shared.reloadAllTimelines()
         manageLiveActivity()
+        scheduleNotifications()
     }
     
     func resetEventTime(for eventId: String) {
@@ -334,5 +440,6 @@ class DataManager: ObservableObject {
         saveToCloud(data: customTimes, key: customTimesKey)
         WidgetCenter.shared.reloadAllTimelines()
         manageLiveActivity()
+        scheduleNotifications()
     }
 }

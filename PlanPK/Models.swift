@@ -2,15 +2,12 @@ import SwiftUI
 import ActivityKit
 
 public struct LiveClassAttributes: ActivityAttributes {
-    
-    public struct ContentState: Codable, Hashable {
-     
-    }
+    public struct ContentState: Codable, Hashable {}
     public var className: String
     public var room: String
     public var startTime: Date
     public var endTime: Date
-    public var typeName: String 
+    public var typeName: String
 }
 
 extension Date {
@@ -53,8 +50,27 @@ struct GradeEntry: Identifiable, Codable { var id = UUID(); var value: Double; v
 struct AbsenceRecord: Identifiable, Codable { var id = UUID(); var date: Date; var note: String }
 struct SemesterArchive: Identifiable, Codable { var id = UUID(); var name: String; var date: Date; var grades: [String: [GradeEntry]]; var absences: [String: [String: [AbsenceRecord]]]; var syllabuses: [String: [String: String]]; var average: Double }
 
+// ZMIANA: Model kopii zapasowej
+struct PlanPKBackup: Codable {
+    var userEvents: [AppEvent]
+    var customNotes: [String: String]
+    var customRooms: [String: String]
+    var cancelledEvents: Set<String>
+    var absencesDates: [String: [String: [AbsenceRecord]]]
+    var absenceLimits: [String: [String: Int]]
+    var grades: [String: [GradeEntry]]
+    var archives: [SemesterArchive]
+    var markedExams: Set<String>
+    var markedImportant: Set<String>
+    var syllabuses: [String: [String: String]]
+    var customTimes: [String: CustomTimeInfo]
+}
+
 struct AppEvent: Identifiable, Codable {
     var id: String; var title: String; var lecturer: String; var room: String; var date: Date; var startTime: Date; var endTime: Date; var category: EventCategory?; var classType: ClassType?; var group: String?; var isUserCreated: Bool = false; var customCategory: String? = nil
+    
+    // ZMIANA: Dodano tablicę z minutami do własnych powiadomień
+    var customReminders: [Int]? = nil
     
     func isHappeningNow(at currentTime: Date) -> Bool { return currentTime >= startTime && currentTime <= endTime }
     func progress(at currentTime: Date) -> Double { let total = endTime.timeIntervalSince(startTime); let elapsed = currentTime.timeIntervalSince(startTime); return max(0, min(1, elapsed / total)) }
@@ -62,6 +78,7 @@ struct AppEvent: Identifiable, Codable {
     var durationMinutes: Int { return Int(endTime.timeIntervalSince(startTime)) / 60 }
     var durationString: String { let h = durationMinutes / 60; let m = durationMinutes % 60; if h > 0 && m > 0 { return "\(h)h \(m)m" } else if h > 0 { return "\(h)h" } else { return "\(m)m" } }
 }
+
 struct CustomTimeInfo: Codable, Hashable {
     var startTime: Date
     var endTime: Date
