@@ -36,7 +36,6 @@ struct ContentView: View {
     
     // ZMIANA: Dodano zmienną do sprawdzania, czy onboarding został już ukończony
     @AppStorage("hasSeenOnboarding") var hasSeenOnboarding: Bool = false
-    
     @State private var selectedDate = Date()
     @State private var showSettings = false
     @State private var showCalendar = false
