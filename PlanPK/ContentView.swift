@@ -31,10 +31,7 @@ struct CustomPicker: View {
 
 struct ContentView: View {
     @StateObject var dataManager = DataManager()
-    
     @Environment(\.scenePhase) var scenePhase
-    
-    // ZMIANA: Dodano zmienną do sprawdzania, czy onboarding został już ukończony
     @AppStorage("hasSeenOnboarding") var hasSeenOnboarding: Bool = false
     @State private var selectedDate = Date()
     @State private var showSettings = false
@@ -57,7 +54,6 @@ struct ContentView: View {
     }
     
     var body: some View {
-        // ZMIANA: Logika decydująca, co pokazać użytkownikowi
         if hasSeenOnboarding {
             mainAppView
         } else {
@@ -66,7 +62,6 @@ struct ContentView: View {
         }
     }
     
-    // ZMIANA: Wydzieliłem Twój stary ContentView do osobnej zmiennej "mainAppView", żeby było czyściej
     var mainAppView: some View {
         NavigationView {
             ZStack {
@@ -84,6 +79,26 @@ struct ContentView: View {
                                     Text(getSmartDateHeader(selectedDate)).font(.title2).fontWeight(.black)
                                 }
                             }
+                            
+                            if !Calendar.current.isDateInToday(selectedDate) {
+                                Button(action: {
+                                    playHaptic()
+                                    withAnimation(.spring()) {
+                                        selectedDate = Date()
+                                    }
+                                }) {
+                                    Text("WROĆ DO DZIŚ")
+                                        .font(.system(size: 12, weight: .bold))
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 5)
+                                        .background(dataManager.theme.mainColor.opacity(0.15))
+                                        .foregroundColor(dataManager.theme.mainColor)
+                                        .clipShape(Capsule())
+                                }
+                                .padding(.leading, 6)
+                                .transition(.scale.combined(with: .opacity))
+                            }
+                            
                             Spacer()
                             Button(action: { playHaptic(); isSharing = true }) {
                                 Image(systemName: "square.and.arrow.up").frame(width: 34, height: 34).foregroundColor(dataManager.theme.mainColor).background(Color(UIColor.secondarySystemGroupedBackground)).clipShape(Circle())
@@ -210,21 +225,21 @@ struct ContentView: View {
     }
     
     @MainActor func renderShareImage() -> UIImage? {
-            if displayMode == 0 {
-                let events = dataManager.filteredEvents(forDate: selectedDate, mode: (planMode == 0) ? .myPlan : .fullPlan, searchText: "")
-                let view = ShareablePlanView(date: selectedDate, events: events, themeColor: dataManager.theme.mainColor)
-                let renderer = ImageRenderer(content: view)
-                renderer.scale = 3.0
-                return renderer.uiImage
-            } else {
-                let mode: DataManager.ViewMode = (planMode == 0) ? .myPlan : .fullPlan
-                let weekEvents = dataManager.getWeekEvents(for: selectedDate, mode: mode, searchText: "")
-                let view = ShareableWeeklyPlanView(date: selectedDate, weekEvents: weekEvents, themeColor: dataManager.theme.mainColor, weekRangeText: formatWeekRange(selectedDate))
-                let renderer = ImageRenderer(content: view)
-                renderer.scale = 3.0
-                return renderer.uiImage
-            }
+        if displayMode == 0 {
+            let events = dataManager.filteredEvents(forDate: selectedDate, mode: (planMode == 0) ? .myPlan : .fullPlan, searchText: "")
+            let view = ShareablePlanView(date: selectedDate, events: events, themeColor: dataManager.theme.mainColor)
+            let renderer = ImageRenderer(content: view)
+            renderer.scale = 3.0
+            return renderer.uiImage
+        } else {
+            let mode: DataManager.ViewMode = (planMode == 0) ? .myPlan : .fullPlan
+            let weekEvents = dataManager.getWeekEvents(for: selectedDate, mode: mode, searchText: "")
+            let view = ShareableWeeklyPlanView(date: selectedDate, weekEvents: weekEvents, themeColor: dataManager.theme.mainColor, weekRangeText: formatWeekRange(selectedDate))
+            let renderer = ImageRenderer(content: view)
+            renderer.scale = 3.0
+            return renderer.uiImage
         }
+    }
 }
 
 struct DailyScheduleView: View {
@@ -358,9 +373,6 @@ struct WeeklyScheduleView: View {
     func isToday(_ date: Date) -> Bool { Calendar.current.isDateInToday(date) }
 }
 
-// ==========================================
-// EKRAN POWITALNY (ONBOARDING)
-// ==========================================
 struct OnboardingView: View {
     @Binding var hasSeenOnboarding: Bool
     @ObservedObject var manager: DataManager
@@ -376,7 +388,6 @@ struct OnboardingView: View {
             Color(UIColor.systemBackground).ignoresSafeArea()
             
             TabView(selection: $currentPage) {
-                // EKRAN 1: Powitanie
                 VStack(spacing: 24) {
                     Spacer()
                     Image(systemName: "graduationcap.fill")
@@ -414,7 +425,6 @@ struct OnboardingView: View {
                 }
                 .tag(0)
                 
-                // EKRAN 2: Wybór grup
                 VStack(spacing: 24) {
                     Spacer()
                     Image(systemName: "person.2.fill")
@@ -461,7 +471,6 @@ struct OnboardingView: View {
                 }
                 .tag(1)
                 
-                // EKRAN 3: Powiadomienia i Live Activities
                 VStack(spacing: 24) {
                     Spacer()
                     Image(systemName: "bell.badge.fill")
