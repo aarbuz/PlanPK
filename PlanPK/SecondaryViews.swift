@@ -17,27 +17,6 @@ struct ShareSheet: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
 }
 
-struct BackupDocument: FileDocument {
-    static var readableContentTypes: [UTType] { [.json] }
-    var data: Data
-    
-    init(data: Data) {
-        self.data = data
-    }
-    
-    init(configuration: ReadConfiguration) throws {
-        if let data = configuration.file.regularFileContents {
-            self.data = data
-        } else {
-            throw CocoaError(.fileReadCorruptFile)
-        }
-    }
-    
-    func fileWrapper(configuration: WriteConfiguration) throws -> FileWrapper {
-        return FileWrapper(regularFileWithContents: data)
-    }
-}
-
 struct EnhancedEventCard: View {
     let event: AppEvent
     let currentTime: Date
@@ -832,15 +811,18 @@ struct SettingsView: View {
     @AppStorage("appTheme") var appThemeRaw: String = AppThemeConfig.blue.rawValue
     @AppStorage("enableLiveActivities") var enableLiveActivities: Bool = true
     @AppStorage("showLectures") var showLectures: Bool = true
+    @AppStorage("enableAutoBackup") var enableAutoBackup: Bool = false
     
     @State private var showArchivePrompt = false
     @State private var archiveName = "Semestr Zimowy 2025"
     
-    @State private var showFileExporter = false
-    @State private var backupDocument: BackupDocument = BackupDocument(data: Data())
-    @State private var showFileImporter = false
+    @State private var showBackupOverwriteWarning = false
+    @State private var showRestoreConfirmation = false
+    @State private var showDeleteBackupConfirmation = false
     @State private var alertMessage = ""
     @State private var showAlertInfo = false
+    @State private var hasLocalBackup = false
+    @State private var showFileImporter = false
     
     var body: some View {
         NavigationView {
@@ -927,27 +909,69 @@ struct SettingsView: View {
                     }
                 }
                 
+                Section(header: Text("Kopia Zapasowa 💾"), footer: Text("Lokalna kopia zapasowa zapisywana w folderze Pliki -> PlanPK. Wyłączenie auto-zapisu nie usuwa plików.")) {
+                    if hasLocalBackup {
+                        Button(action: {
+                            showRestoreConfirmation = true
+                        }) {
+                            HStack {
+                                Image(systemName: "arrow.triangle.2.circlepath")
+                                Text("Przywróć z folderu PlanPK")
+                            }
+                        }.foregroundColor(.orange)
+                        
+                        Button(action: {
+                            showDeleteBackupConfirmation = true
+                        }) {
+                            HStack {
+                                Image(systemName: "trash")
+                                Text("Usuń lokalny backup")
+                            }
+                        }.foregroundColor(.red)
+                    }
+                    
+                    Button(action: {
+                        showFileImporter = true
+                    }) {
+                        HStack {
+                            Image(systemName: "folder.badge.plus")
+                            Text("Wczytaj zewnętrzny plik z danymi")
+                        }
+                    }.foregroundColor(.blue)
+
+                    Toggle(isOn: Binding(
+                        get: { enableAutoBackup },
+                        set: { newValue in
+                            if newValue == true && hasLocalBackup && !enableAutoBackup {
+                                showBackupOverwriteWarning = true
+                            } else {
+                                enableAutoBackup = newValue
+                                if newValue {
+                                    manager.performAutoBackup()
+                                    hasLocalBackup = true
+                                }
+                            }
+                        }
+                    )) {
+                        HStack {
+                            Image(systemName: "arrow.2.squarepath").foregroundColor(.green)
+                            Text("Automatyczny Backup")
+                        }
+                    }
+                    .tint(.green)
+                }
+                
                 Section(header: Text("Zarządzanie Semestrem 📦"), footer: Text("Zakończenie semestru wyczyści obecne oceny i losówki, zapisując je w archiwum.")) {
                     NavigationLink("Archiwum Semestrów", destination: ArchivesListView(manager: manager))
                     Button("Zakończ obecny semestr") { showArchivePrompt = true }.foregroundColor(.red)
-                }
-                
-                Section(header: Text("Kopia Zapasowa 💾"), footer: Text("Zapisz swoje oceny, notatki, ustawienia i dodane wydarzenia do pliku .json na swoim telefonie, iCloud lub wyślij znajomym.")) {
-                    Button("Eksportuj dane do pliku") {
-                        if let data = manager.generateBackupData() {
-                            backupDocument = BackupDocument(data: data)
-                            showFileExporter = true
-                        }
-                    }.foregroundColor(.blue)
-                    
-                    Button("Importuj dane z pliku") {
-                        showFileImporter = true
-                    }.foregroundColor(.orange)
                 }
             }
             .navigationTitle("Ustawienia")
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) { Button("Gotowe") { manager.loadData(); dismiss() } }
+            }
+            .onAppear {
+                hasLocalBackup = manager.checkLocalBackupExists()
             }
             .alert("Zakończ Semestr", isPresented: $showArchivePrompt) {
                 TextField("Nazwa (np. Zimowy 25)", text: $archiveName)
@@ -958,15 +982,44 @@ struct SettingsView: View {
                     manager.archiveSemester(name: archiveName, currentAverage: avg)
                 }
             } message: { Text("Twoje oceny, nieobecności i notatki zostaną przeniesione do archiwum.") }
-            .fileExporter(isPresented: $showFileExporter, document: backupDocument, contentType: .json, defaultFilename: "PlanPK_Backup") { result in
-                switch result {
-                case .success(_):
-                    alertMessage = "Kopia zapasowa zapisana pomyślnie!"
-                    showAlertInfo = true
-                case .failure(let error):
-                    alertMessage = "Błąd zapisu: \(error.localizedDescription)"
+            .alert("Uwaga: Nadpisanie kopii", isPresented: $showBackupOverwriteWarning) {
+                Button("Anuluj", role: .cancel) { }
+                Button("Nadpisz plik", role: .destructive) {
+                    enableAutoBackup = true
+                    manager.performAutoBackup()
+                    hasLocalBackup = true
+                    alertMessage = "Kopia zapasowa została nadpisana bieżącymi danymi."
                     showAlertInfo = true
                 }
+            } message: {
+                Text("Znaleziono starą kopię zapasową z poprzedniej instalacji. Włączenie tej opcji nadpisze ją obecnymi danymi.\n\nJeśli chcesz zachować stare dane, najpierw kliknij 'Przywróć z folderu PlanPK'.")
+            }
+            .alert("Przywrócić dane?", isPresented: $showRestoreConfirmation) {
+                Button("Anuluj", role: .cancel) { }
+                Button("Przywróć", role: .destructive) {
+                    manager.restoreFromLocalBackup()
+                    alertMessage = "Dane zostały pomyślnie przywrócone z pliku!"
+                    showAlertInfo = true
+                }
+            } message: {
+                Text("Obecny plan, oceny i notatki zostaną w całości zastąpione tymi z pliku zapasowego.")
+            }
+            .alert("Usuń kopię zapasową", isPresented: $showDeleteBackupConfirmation) {
+                Button("Anuluj", role: .cancel) { }
+                Button("Usuń", role: .destructive) {
+                    manager.deleteLocalBackup()
+                    hasLocalBackup = false
+                    enableAutoBackup = false
+                    alertMessage = "Plik kopii zapasowej został pomyślnie usunięty z telefonu."
+                    showAlertInfo = true
+                }
+            } message: {
+                Text("Czy na pewno chcesz bezpowrotnie usunąć plik kopii zapasowej z tego urządzenia?")
+            }
+            .alert("Informacja", isPresented: $showAlertInfo) {
+                Button("OK", role: .cancel) { }
+            } message: {
+                Text(alertMessage)
             }
             .fileImporter(isPresented: $showFileImporter, allowedContentTypes: [.json]) { result in
                 switch result {
@@ -974,18 +1027,14 @@ struct SettingsView: View {
                     if url.startAccessingSecurityScopedResource() {
                         manager.restoreFromBackup(url: url)
                         url.stopAccessingSecurityScopedResource()
-                        alertMessage = "Dane przywrócone pomyślnie!"
+                        hasLocalBackup = true
+                        alertMessage = "Pomyślnie wczytano dane z pliku!"
                         showAlertInfo = true
                     }
                 case .failure(let error):
                     alertMessage = "Błąd importu: \(error.localizedDescription)"
                     showAlertInfo = true
                 }
-            }
-            .alert("Informacja", isPresented: $showAlertInfo) {
-                Button("OK", role: .cancel) { }
-            } message: {
-                Text(alertMessage)
             }
         }
     }

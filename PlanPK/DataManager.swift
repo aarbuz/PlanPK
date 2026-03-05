@@ -24,6 +24,7 @@ class DataManager: ObservableObject {
     
     @AppStorage("enableLiveActivities") var enableLiveActivities: Bool = true
     @AppStorage("showLectures") var showLectures: Bool = true
+    @AppStorage("enableAutoBackup") var enableAutoBackup: Bool = false
     
     @Published var customTimes: [String: CustomTimeInfo] = [:]
     @AppStorage("selectedLabGroup") var selectedLabGroup: String = "L1"
@@ -76,19 +77,37 @@ class DataManager: ObservableObject {
         exportWidgetData()
     }
     
-    func generateBackupData() -> Data? {
+    var localBackupURL: URL {
+        FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("PlanPK_Backup.json")
+    }
+    
+    func performAutoBackup() {
+        guard enableAutoBackup else { return }
         let backup = PlanPKBackup(
             userEvents: loadUserEvents(), customNotes: customNotes, customRooms: customRooms,
             cancelledEvents: cancelledEvents, absencesDates: absencesDates, absenceLimits: absenceLimits,
             grades: grades, archives: archives, markedExams: markedExams,
             markedImportant: markedImportant, syllabuses: syllabuses, customTimes: customTimes
         )
-        return try? JSONEncoder().encode(backup)
+        if let data = try? JSONEncoder().encode(backup) {
+            try? data.write(to: localBackupURL)
+        }
     }
     
-    func restoreFromBackup(url: URL) {
-        guard let data = try? Data(contentsOf: url),
+    func checkLocalBackupExists() -> Bool {
+        return FileManager.default.fileExists(atPath: localBackupURL.path)
+    }
+    
+    func deleteLocalBackup() {
+        try? FileManager.default.removeItem(at: localBackupURL)
+    }
+    
+    func restoreFromLocalBackup() {
+        guard let data = try? Data(contentsOf: localBackupURL),
               let backup = try? JSONDecoder().decode(PlanPKBackup.self, from: data) else { return }
+        
+        let previousState = enableAutoBackup
+        enableAutoBackup = false
         
         saveToCloud(data: backup.userEvents, key: userEventsKey)
         saveToCloud(data: backup.customNotes, key: notesKey)
@@ -103,7 +122,36 @@ class DataManager: ObservableObject {
         saveToCloud(data: backup.syllabuses, key: syllabusesKey)
         saveToCloud(data: backup.customTimes, key: customTimesKey)
         
+        enableAutoBackup = previousState
         loadData()
+    }
+    
+    func restoreFromBackup(url: URL) {
+        guard let data = try? Data(contentsOf: url),
+              let backup = try? JSONDecoder().decode(PlanPKBackup.self, from: data) else { return }
+        
+        let previousState = enableAutoBackup
+        enableAutoBackup = false
+        
+        saveToCloud(data: backup.userEvents, key: userEventsKey)
+        saveToCloud(data: backup.customNotes, key: notesKey)
+        saveToCloud(data: backup.customRooms, key: roomsKey)
+        saveToCloud(data: backup.cancelledEvents, key: cancelledKey)
+        saveToCloud(data: backup.absencesDates, key: absencesKey)
+        saveToCloud(data: backup.absenceLimits, key: limitsKey)
+        saveToCloud(data: backup.grades, key: gradesKey)
+        saveToCloud(data: backup.archives, key: archivesKey)
+        saveToCloud(data: backup.markedExams, key: markedExamsKey)
+        saveToCloud(data: backup.markedImportant, key: markedImportantKey)
+        saveToCloud(data: backup.syllabuses, key: syllabusesKey)
+        saveToCloud(data: backup.customTimes, key: customTimesKey)
+        
+        enableAutoBackup = previousState
+        loadData()
+        
+        if previousState {
+            performAutoBackup()
+        }
     }
     
     func exportToAppleCalendar() {
@@ -196,7 +244,7 @@ class DataManager: ObservableObject {
             f.dateFormat = "yyyyMMdd'T'HHmmss"
             f.timeZone = TimeZone.current
             
-            var usedIDs = Set<String>() // Zapamiętuje użyte ID, żeby unikać duplikatów!
+            var usedIDs = Set<String>()
             
             for line in lines {
                 let clean = line.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -208,7 +256,6 @@ class DataManager: ObservableObject {
                             var room = "Brak sali"; for part in parts { let p = part.trimmingCharacters(in: .whitespaces); if p.starts(with: "s.") || ["A1", "A2", "A3", "A4", "201", "202", "06", "19", "10", "101B"].contains(p) { room = p.replacingOccurrences(of: "s.", with: "").trimmingCharacters(in: .whitespaces) } }
                             var type: ClassType = .unknown; if groupRaw == "W" { type = .wyklad } else if groupRaw.starts(with: "Lek") { type = .lek } else if groupRaw.starts(with: "Lk") { type = .labK } else if groupRaw.starts(with: "L") { type = .lab } else if groupRaw.starts(with: "P") { type = .proj }
                             
-                            // Bezpieczny generator unikalnego ID dla każdego wydarzenia
                             let baseID = "\(name.replacingOccurrences(of: " ", with: ""))_\(currentDtStart)_\(room.replacingOccurrences(of: " ", with: ""))"
                             var finalID = baseID
                             var counter = 1
@@ -227,7 +274,13 @@ class DataManager: ObservableObject {
         } catch { return [] }
     }
     
-    func saveToCloud<T: Encodable>(data: T, key: String) { if let encoded = try? JSONEncoder().encode(data) { store.set(encoded, forKey: key); store.synchronize(); UserDefaults.standard.set(encoded, forKey: key) } }
+    func saveToCloud<T: Encodable>(data: T, key: String) {
+        if let encoded = try? JSONEncoder().encode(data) {
+            store.set(encoded, forKey: key); store.synchronize(); UserDefaults.standard.set(encoded, forKey: key)
+        }
+        performAutoBackup()
+    }
+    
     func loadFromCloud<T: Decodable>(key: String, type: T.Type) -> T? { let data = store.data(forKey: key) ?? UserDefaults.standard.data(forKey: key); if let data = data, let decoded = try? JSONDecoder().decode(T.self, from: data) { return decoded }; return nil }
     
     func toggleCancel(for id: String) {
